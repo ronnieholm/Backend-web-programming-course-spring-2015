@@ -39,7 +39,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Exercise01\Solution.cs" />
     <Compile Include="Exercise02\Solution.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

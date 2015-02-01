@@ -26,11 +26,11 @@ Classes are Fridays 9am-2pm
 	  <td>1</td>
 	  <td>Feb 6</td>
 	  <td>
-		Introduction and setup
-		What is backend web programming?
-		Statements
-		Compile and run
-		Visual Studio setup
+		Introduction and setup</br>
+		What is backend web programming?</br>
+		Statements</br>
+		Compile and run</br>
+		Visual Studio setup</br>
 	  </td>
 	  <td>1, 2</td>
 	</tr>

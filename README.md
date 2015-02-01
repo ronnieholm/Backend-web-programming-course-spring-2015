@@ -20,18 +20,20 @@ Classes are Fridays 9am-2pm
 	  <th>#</th>
 	  <th>Data</th>
 	  <th>Topics</th>
+	  <th>Reading</th>
 	  <th>Exercises</th>
     </tr>
 	<tr>
 	  <td>1</td>
 	  <td>Feb 6</td>
 	  <td>
-		Introduction and setup</br>
-		What is backend web programming?</br>
-		Statements</br>
-		Compile and run</br>
-		Visual Studio setup</br>
+		<p>Introduction and setup</p>
+		<p>What is backend web programming?</p>
+		<p>Statements</p>
+		<p>Compile and run</p>
+		<p>Visual Studio setup</p>
 	  </td>
+	  <td>1-10, 13-24</td>
 	  <td>1, 2</td>
 	</tr>
 	<tr>
@@ -44,6 +46,7 @@ Classes are Fridays 9am-2pm
 		<p>Arithmetic</p>
 		<p>Logic</p>
 	  </td>
+	  <td>29-45, 49-57, 79-82, 84-86, 98-102</td>
 	  <td>1, 2, 3, 4, 5, 6</td>
 	</tr>
 	<tr>
@@ -55,7 +58,9 @@ Classes are Fridays 9am-2pm
 		<p>Using methods on objects</p>
 		<p>Defining classes</p>
 		<p>Method definitions</p>
+		<p>Debugging</p>
 	  </td>
+	  <td>105-123, 131-146, 157-170, 177-182, 203-208</td>
 	  <td>7, 8, 9, 9a, 9b, 10, 11, 12</td>
 	</tr>
 	<tr>
@@ -67,6 +72,7 @@ Classes are Fridays 9am-2pm
 		<p>if/else-statement</p>
 		<p>switch statement</p>
 	  </td>
+	  <td>59-65</td>
 	  <td>13, 14, 15, 16</td>
 	</tr>
 	<tr>
@@ -77,6 +83,7 @@ Classes are Fridays 9am-2pm
 		<p>while-loop</p>
 		<p>for-loop</p>
 	  </td>
+	  <td>68-75</td>
 	  <td>17, 18, 18a, 18b, 19, 19a, 20</td>
 	</tr>
 	<tr>
@@ -88,6 +95,7 @@ Classes are Fridays 9am-2pm
 		<p>List</p>
 		<p>Dictionary</p>
 	  </td>
+	  <td>92-98, 287-288, 294-295</td>
 	  <td>21, 22, 23, 24, 25</td>
 	</tr>
 	<tr>
@@ -99,6 +107,7 @@ Classes are Fridays 9am-2pm
 		<p>Polymorphism</p>
 		<p>Interfaces</p>
 	  </td>
+	  <td>163-167</td>
 	  <td>The Bank Job, 26, 27</td>
 	</tr>
 	<tr>
@@ -112,6 +121,7 @@ Classes are Fridays 9am-2pm
 		<p>Static classes and methods</p>
 		<p>Enumeration types</p>
 	  </td>
+	  <td>64, 87-90, 147-153, 162-163, 315-316</td>
 	  <td>28, 29, 30</td>
 	</tr>
 	<tr>
@@ -120,6 +130,7 @@ Classes are Fridays 9am-2pm
 	  <td>
 		<p>Hand-in</p>
 	  </td>
+	  <td></td>
 	  <td>&nbsp;</td>
 	</tr>
 	<tr>
@@ -128,6 +139,7 @@ Classes are Fridays 9am-2pm
 	  <td>
 		<p>Review</p>
 	  </td>
+	  <td></td>
 	  <td>&nbsp;</td>
 	</tr>
 	<tr>
@@ -136,6 +148,7 @@ Classes are Fridays 9am-2pm
 	  <td>
 		<p>Exam</p>
 	  </td>
+	  <td></td>
 	  <td>&nbsp;</td>
 	</tr>
   </table>

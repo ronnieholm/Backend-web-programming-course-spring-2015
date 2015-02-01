@@ -3,7 +3,7 @@ Backend-web-programming-course-spring-2015
 
 ## Location
 
-RO-115
+RO-115/RO-E309
 
 ## Material
 

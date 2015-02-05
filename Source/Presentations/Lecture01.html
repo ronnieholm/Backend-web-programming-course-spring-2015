@@ -29,10 +29,7 @@
         <script src="lib/js/html5shiv.js"></script>
         <![endif]-->
     </head>
-<!--
-    Add: Reading heavy in the beginning, then more practice-heavy
-    Test: Can VS check out annonymously from Github? No need for Git tool locally?
--->
+
     <body>
         <div class="reveal">
             <div class="slides">       
@@ -45,15 +42,23 @@
 
                 <section>
                     <h2>Overview</h2>
-                    <p>What's backend web development</p>
-                    <p>How we work in class</p>
-                    <p>Schedule</p>
+                    <ul>
+                        <li>What's backend web development?</li>
+                        <li>Course goals</li>
+                        <li>Stages of learning to program</li>
+                        <li>How to study?</li>
+                        <li>Resources</li>
+                        <li>Exam</li>
+                        <li>Required software</li>
+                        <li>Github workflow</li>
+                        <li>What does code look like?</li>
+                    </ul>
                 </section>
 
                 <section>
                     <section>
-                        <h2>What's backend web development</h2>
-                        <p>Tasks carried out by modern web app (webshop)</p>
+                        <h2>What's backend web development?</h2>
+                        <p>By example: tasks carried out by modern web webshop</p>
                         <ul>
                             <li>Presenting content</li>
                             <li>Receiving user input</li>
@@ -64,20 +69,23 @@
                     </section>
 
                     <section>
-                        <h2>Why layers</h2>
-                        <p>Pick right tool for right job</p>
-                        <p>Flexibily makes for plug and play replacement</p>
-                        <p></p>
+                        <h2>Group functionality into layers</h2>
+                        <ul>
+                            <li>Similar to heading when writing reports</li>
+                            <li>Piecemeal approach to understanding anything complex</li>
+                            <li>Pick right tool for right job</li>
+                            <li>Flexibily makes plug and play easier</li>
+                        </ul>
                         <aside class="notes">
                             <ul>
-                                <li>Tool used for constructing different parts are different in nature</li>
+                                <li>Tools used for constructing different parts are different in nature</li>
                                 <li>Replace/supplement UI while preserving logic/data parts</li>
                             </ul>
                         </aside>
                     </section>
 
                     <section>
-                        <h2>Layers by name and PBA course</h2>
+                        <h2>Layers by name and bachelor course</h2>
                         <p>User interface layer (FE)</p>
                         <p>Business logic layer (BE)</p>
                         <p>Data persistence layer (DB)</p>
@@ -85,8 +93,8 @@
                         <aside class="notes">
                             <ul>
                                 <li>UI: presents content and manages user interactions (receive input, showing output)</li>
-                                <li>Logic: applying business rules to incoming data, producing data for storage</li>
-                                <li>Data: storing final data</li>
+                                <li>Logic: applys business rules to incoming data, producing data for storage</li>
+                                <li>Data: storage and retrieval</li>
                             </ul>
                         </aside>
                     </section>
@@ -94,15 +102,13 @@
 
                 <section>
                     <h2>Course goals</h2>
-                    <p>
-                        This course concentrates on tools and techniques for implementing business
-                        rules and logic using an object-oriented programming language
-                    </p>
-                    &nbsp;
-                    <p>Read, understand, and modify programs of low to moderate complexity</p>
-                    &nbsp;
-                    <p>Create (from scratch) programs of low complexity</p>
-                    
+                    <ul>
+                        <li>Tools and techniques for implementing rules/logic using OO</li>
+                        <li>Create programs of low complexity from scratch</li>
+                        <li>Understand/modify programs of moderate complexity</li>
+                        <li>Learn how to learn any language</li>
+                        <li>Training in abstract/logical thinking/reasoning</li>
+                    </ul>                    
                     <aside class="notes">
                         <ul>
                             <li>Not to become full-blown developer after this course</li>
@@ -111,77 +117,91 @@
                 </section>
 
                 <section>
-                    <h2>Resources</h2>
-                    <p>Lectures</p>
-                    <p>Book</p>
-                    <p>Exercises and solutions</p>
-                    <p>Internet</p>
-                    <p>Practice</p>
+                    <h2>Stages of learning to program</h2>
+                    <p>
+                        <a href="http://www.vikingcodeschool.com/posts/why-learning-to-code-is-so-damn-hard?utm_content=buffer8f181&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer">Why Learning to Code is So Damn Hard</a>
+                    </p>
+                    <ul>
+                        <li>Hand-Holding Honeymoon</li>
+                        <li>Cliff of Confusion</li>
+                        <li>Desert of Despair</li>
+                        <li>Upswing of Awesome</li>
+                    </ul>
+                    <aside class="notes">
+                        <p>Becoming proficient takes years of deliberate practice</p>
+                    </aside>
+                </section>
 
+                <section>
+                    <h2>How to study?</h2>
+                    <ul>
+                        <li>Hands-on exercises</li>
+                        <li>Self-motivated learning</li>
+                        <li>Working on bigger project(s) toward end of course</li>
+                    </ul>
                     <aside class="notes">
                         <ul>
-                            <li>Teacher explains/illustrates main concepts, no time for all details, work on exercises, projects</li>
-                            <li>Use for background and details</li>
-                            <li>Use Internet to actively to find tutorials, alternative explanations</li>
-                            <li>Doing programming yourself is the key to deeper learning about the concepts</li>
+                            <li>Bottom-up vs. top-down</li>
+                            <li>Not cover a lot of ground</li>
+                            <li>Focus on concepts applicable to most languages, platforms, domains (iPhone, Android, PHP, games)</li>
+                            <li>Relationship to other courses in semester</li>
+                            <li>Focus on the big picture during lecture and you fill out the details</li>
                         </ul>
                     </aside>
                 </section>
 
                 <section>
-                    <h2>How we work in class</h2>
-                    <p>Hands-on</p>
-                    <p>Self-motivated learning</p>
-                    <p>Solving exercises</p>
-                    <p>Working on bigger project toward end of course</p>
-
+                    <h2>Resources</h2>
+                    <ul>
+                        <li>Lectures</li>
+                        <li>Book</li>
+                        <li>Internet</li>
+                        <li>Exercises and solutions</li>
+                        <li>Github repository</li>
+                    </ul>
                     <aside class="notes">
-                        Bottom-up vs. top-down
-                        Not cover a lot of ground
-                        Focus on core concepts applicable to most languages, platforms, domains (iPhone, Android, PHP, games)
-                        Training in abstract/logical thinking/reasoning
-                        Relationship to other courses in semester
-
-                        Focus on the big picture during lecture and you fill out the details
+                        <ul>
+                            <li>Instructor illustrates main concepts, work on exercises, projects</li>
+                            <li>Use book for background and details</li>
+                            <li>Use Internet to actively find tutorials, alternative explanations</li>
+                            <li>Programming is key to deeper learning about the concepts</li>
+                        </ul>
                     </aside>
                 </section>
 
                 <section>
-                    <h2>Programming learning stages</h2>
-                    <p>Deniel</p>
-                    <p>Anger</p>
-                    <p>Depression</p>
-                    <p>Acceptance</p>
-
-                    <aside class="notes">
-                        <p>Becoming proficient takes years of practice</p>
-                    </aside>
-                </section>
-
-                <section>
-                    <h2>Schedule</h2>
-                    <p>Every Friday, 9am-1pm</p>
+                    <h2>Exam</h2>
+                    <ul>
+                        <li>Project-based oral exam</li>
+                        <li>10-15 minutes presentation of project</li>
+                        <li>30 minutes in total, 22-25 minutes actual exam</li>
+                        <li>No preparation on day of exam</li>
+                    </ul>
                 </section>
 
                 <section>
                     <h2>Required software</h2>
-                    <p>Visual Studio 2013</p>
-                    <p>Git for Windows</p>
-                    <p>TeamViewer</p>
-
-                    <aside class="notes">
-                        Git repo directory layout
-                    </aside>
+                    <ul>
+                        <li>Visual Studio 2013</li>
+                        <li>Git for Windows (maybe)</li>
+                        <li>TeamViewer</li>
+                    </ul>
                 </section>
 
                 <section>
                     <section>
-                        <h2>Git workflow</h2>
-                        <p>Modern version control system</p>
-                        <p>Dropbox but aimed at coding in teams</p>
-                        <p>Controlled sync and merge of files</p>
-                        <p>We use only one-way but supports two-way</p>
-                        <p>Each repository has associated <a href="https://github.com/ronnieholm/Backend-web-programming-course-spring-2015">website</a></p>
+                        <h2>Github workflow</h2>
+                        <ul>
+                            <li>Modern version control system</li>
+                            <li>Dropbox but aimed at coding</li>
+                            <li>Controlled sync and merge of files</li>
+                            <li>We use only one-way sync</li>
+                            <li>Each repository has associated <a href="https://github.com/ronnieholm/Backend-web-programming-course-spring-2015">website</a></li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2>Using Git with Visual Studio</h2>
                     </section>
 
                     <section>
@@ -206,13 +226,14 @@
                 </section>
 
                 <section>
-                    <h2>Exam</h2>
-                    <p>Oral</p>
-                    <p>30 min in total, 20-25 min actual exam</p>
-                    <p>No preparation</p>
-                    <aside class="notes">
-                        Notes only seen in speaker window
-                    </aside>
+                    <h2>Example: approximate the value of Pi</h2>
+                    <ul>
+                        <li>Prints computed value of Pi with desired precision</li>
+                        <li>
+                            Compute Pi using the Gregory–Leibniz series:
+                            Pi = 4/1 - 4/3 + 4/5 - 4/7 + 4/9 - 4/11 + 4/13 - ...
+                        </li>
+                    </ul>
                 </section>
 
                 <section>
@@ -223,14 +244,6 @@ using System;
 namespace Pi {
     class Program {
         static int Main(string[] args) {
-            if (args.Length == 0) {
-                Console.WriteLine("Call like Pi.exe precision, where precision is an integer");
-                return 1;
-            }
-            if (args.Length > 1) {
-                Console.WriteLine("Too many arguments. Only one expected");
-                return 1;
-            }
             uint precision;
             bool isPrecisionPositiveInteger = uint.TryParse(args[0], out precision);
             if (!isPrecisionPositiveInteger || precision == 0) {
@@ -250,24 +263,6 @@ namespace Pi {
         }
     }
 }                   </code></pre>
-
-                        <aside class="notes"></aside>
-                    </section>
-                    <section>
-                        <h2>Approximates the value of Pi</h2>
-                        <p>
-                            - Ensure that when the application is called with
-                            - 0 arguments it displays a help text and exits with code 1
-                            - 1 argument that isn't a positive integer it displays an error
-                            message and exits with code 1
-                            - More than 1 argument it displays an error message and exits with code 1
-                            - Otherwise it prints the computed value of Pi to the console and
-                            exists with code 0
-
-                            - Compute Pi using the Gregory–Leibniz series [2]
-
-                            Pi = 4/1 - 4/3 + 4/5 - 4/7 + 4/9 - 4/11 + 4/13 - ...
-                        </p>
                     </section>
                 </section>
             </div>

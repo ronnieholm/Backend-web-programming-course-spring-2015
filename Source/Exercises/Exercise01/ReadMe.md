@@ -19,7 +19,7 @@ system is then to pay out:
   * 1 x 2 kr coin 
   * 1 x 1 kr coin
 
-Your task is to describe (in writing) the calculation logic in much detail that each step 
+Your task is to describe (in writing) the calculation logic in so much detail that each step 
 becomes trivial to perform. A programmer should be able to follow your steps and turn the 
 logic into a working piece of software.
 
@@ -36,5 +36,5 @@ Solve the exercise in groups and try out your logic on a couple of examples:
 
 As a final test, swap your logic with another group and see if you're able of following
 the other group's logic and end up with the correct result. If you're unable to reach the 
-correct result, discuss the reason with the other group. Is the logic wrong, or hasn't it 
+correct result, discuss the reason with the other group. Is the logic wrong or hasn't it 
 been described in sufficient detail?

@@ -44,12 +44,30 @@
   <ItemGroup>
     <Compile Include="Exercise01\Solution.cs" />
     <Compile Include="Exercise02\Solution.cs" />
+    <Compile Include="Exercise03\Car.cs" />
+    <Compile Include="Exercise04\BankAccount.cs" />
+    <Compile Include="Exercise05\ArithmeticsI.cs" />
+    <Compile Include="Exercise06\ArithmeticsII.cs" />
+    <Compile Include="Exercise07\LogicExpressionsI.cs" />
+    <Compile Include="Exercise08\LogicExpressionII.cs" />
+    <Compile Include="Exercise08\LogicExpressionIISolution.cs" />
+    <Compile Include="Exercise09\Car.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Exercise01\README.md" />
     <None Include="Exercise02\README.md" />
+    <None Include="Exercise03\README.md" />
+    <None Include="Exercise04\README.md" />
+    <None Include="Exercise05\README.md" />
+    <None Include="Exercise06\README.md" />
+    <None Include="Exercise07\README.md" />
+    <None Include="Exercise08\README.md" />
+    <None Include="Exercise09\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Exercise10\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

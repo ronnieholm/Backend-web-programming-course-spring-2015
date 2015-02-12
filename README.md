@@ -23,7 +23,7 @@ Classes are Fridays 9am-2pm
 	  <th>Reading</th>
 	  <th>Exercises</th>
     </tr>
-	<tr>
+	<tr bgcolor="#00AA00">
 	  <td>1</td>
 	  <td>Feb 6</td>
 	  <td>

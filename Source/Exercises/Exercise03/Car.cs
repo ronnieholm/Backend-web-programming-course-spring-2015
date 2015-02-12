@@ -17,6 +17,6 @@ namespace Exercises.Exercise03 {
         double kilometersPerLiter;
         bool isDiesel;
 
-        // Your task: assign proper values to the above variables 
+        // todo: assign values to the above variables 
     }
 }

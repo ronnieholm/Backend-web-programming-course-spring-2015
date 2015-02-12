@@ -46,11 +46,12 @@
     <Compile Include="Exercise02\Solution.cs" />
     <Compile Include="Exercise03\Car.cs" />
     <Compile Include="Exercise04\BankAccount.cs" />
-    <Compile Include="Exercise05\ArithmeticsI.cs" />
-    <Compile Include="Exercise06\ArithmeticsII.cs" />
-    <Compile Include="Exercise07\LogicExpressionsI.cs" />
-    <Compile Include="Exercise08\LogicExpressionII.cs" />
-    <Compile Include="Exercise08\LogicExpressionIISolution.cs" />
+    <Compile Include="Exercise05\ArithmeticExpressionsI.cs" />
+    <Compile Include="Exercise06\ArithmeticsExpressionsII.cs" />
+    <Compile Include="Exercise06\ArithmeticsExpressionsIISolution.cs" />
+    <Compile Include="Exercise07\LogicalExpressionsI.cs" />
+    <Compile Include="Exercise08\LogicalExpressionsII.cs" />
+    <Compile Include="Exercise08\LogicalExpressionsIISolution.cs" />
     <Compile Include="Exercise09\Car.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

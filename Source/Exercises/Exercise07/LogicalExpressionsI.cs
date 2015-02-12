@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Exercises.Exercise07 {
-    class LogicExpressionsI {
+    class LogicalExpressionsI {
         public void MyCode() {
             // 1
             int a = 12;

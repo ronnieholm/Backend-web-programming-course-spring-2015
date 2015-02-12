@@ -1,4 +1,4 @@
-﻿# Exercise 5: Arithmetics I
+﻿# Exercise 5: Arithmetic expressions I
 
 The code contains eight arithmetic expressions. For each one, 
 try to figure out what the value of the variable is. When 

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Exercises.Exercise08
 {
-    class LogicExpressionIISolution
+    class LogicalExpressionsIISolution
     {
     }
 }

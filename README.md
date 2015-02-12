@@ -47,7 +47,7 @@ Classes are Fridays 9am-2pm
 		<p>Logic</p>
 	  </td>
 	  <td>29-45, 49-57, 79-82, 84-86, 98-102</td>
-	  <td>1, 2, 3, 4, 5, 6</td>
+	  <td>3, 4, 5, 6, 7, 8</td>
 	</tr>
 	<tr>
 	  <td>3-5</td>

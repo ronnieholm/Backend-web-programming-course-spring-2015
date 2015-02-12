@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Exercises.Exercise06 {
-    class ArithmeticsII {
+    class ArithmeticsExpressionsIISolution {
         public void MyCode() {
             // 1
             int a = 5 * 7;

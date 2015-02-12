@@ -1,4 +1,4 @@
-﻿# Exercise 6: Arithmetics II
+﻿# Exercise 6: Arithmetic expressions II
 
 Your task is to write arithmetic expressions corresponding to the 
 below cases: 

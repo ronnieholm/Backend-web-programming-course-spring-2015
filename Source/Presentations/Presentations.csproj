@@ -67,6 +67,7 @@
   <ItemGroup>
     <Content Include="Lecture01.html" />
     <Content Include="index.html" />
+    <None Include="Lecture02.md" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercises.Exercise03 {
-    class Car {
-        // declaration of variables representing properties of a car
+namespace Exercises.Exercise03
+{
+    // begin copy
+    class Car
+    {
         string brand;
         string modelName;
         string color;
@@ -16,7 +18,6 @@ namespace Exercises.Exercise03 {
         double engineSize;
         double kilometersPerLiter;
         bool isDiesel;
-
-        // todo: assign values to the above variables 
     }
+    // end copy
 }

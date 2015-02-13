@@ -12,6 +12,21 @@ namespace Exercises
     {
         static int Main(string[] args)
         {
+            double x = 2.0;
+            double y = Math.Sqrt(x) * Math.Sqrt(x);
+            bool bool6 = (x == y);
+            Console.WriteLine("The value of bool6 is : {0}", bool6);
+            //
+            // Why did that happen? Check the values for x and y
+            // by uncommenting the three lines below:
+            //
+            Console.WriteLine("x is : {0}", x);
+            Console.WriteLine("y is : {0}", y);
+            Console.WriteLine("x - y is : {0}", (x - y));
+
+
+            return 0;
+
             uint precision;
             bool isPrecisionPositiveInteger = uint.TryParse(args[0], out precision);
             if (!isPrecisionPositiveInteger || precision == 0)

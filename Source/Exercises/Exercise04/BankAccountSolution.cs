@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace Exercises.Exercise04
 {
-    // begin copy
-    class BankAccount
+    class BankAccountSolution
     {
         string cardHolder = "John Doe";
         string accountNumber = "123456789";
-        // add additional variables
+        double interestRate = 0.0375;
+        double balance = 1000.00;
     }
-    // end copy
 }

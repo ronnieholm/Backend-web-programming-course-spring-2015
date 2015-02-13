@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercises.Exercise05 {
-    class ArithmeticExpressionsI {
-        public void MyCode() {
+namespace Exercises.Exercise05
+{
+    class ArithmeticExpressionsI
+    {
+        public void MyCode()
+        {
             // 1
             int a = 20;
             a = a + 30;

@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercises.Exercise07 {
-    class LogicalExpressionsI {
-        public void MyCode() {
+namespace Exercises.Exercise07
+{
+    class LogicalExpressionsI
+    {
+        public void MyCode()
+        {
             // 1
             int a = 12;
             bool bool1 = (a != 11);

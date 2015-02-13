@@ -10,7 +10,8 @@ namespace Exercises.Exercise06
     {
         public void MyCode()
         {
-            // add code here
+            // intentionally left empty.
+            // No starting point provided for execise.
         }
     }
 }

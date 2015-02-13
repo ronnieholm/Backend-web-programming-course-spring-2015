@@ -234,7 +234,7 @@ Statements are organized into methods and classes. We'll get to that later.
 Statements are instructions to the program about what to do next. Examples are:
 
   * Do some arithmetic or logical calculation
-  * Read or write data to a file, the screen
+  * Read or write data to a file or the screen
   * Control the flow of execution
 
 Only common property for all statements: they end with a ";" (semicolon).
@@ -423,13 +423,12 @@ have seen how to do this already:
     Console.WriteLine("Hello world");
 
 The statement Console.WriteLine outputs to the screen. 
-In the above example, it will output:
+In the above example it will output:
 
     Hello world
 
 In general, Console.WriteLine outputs the data we specify within the 
-brackets (). If we 
-write something within quotation marks, like "Hello world", then it's 
+brackets (). If we write something within quotation marks, like "Hello world", it's 
 interpreted as data of type string and the string (but not the
 quotation marks themselves) is printed. However, Console.WriteLine is 
 rather flexible. Consider this piece of code:
@@ -437,13 +436,13 @@ rather flexible. Consider this piece of code:
     int age = 21;
     Console.WriteLine(age);
 
-If you execute this piece of code, the program will print:
+If you execute this piece of code it'll print:
 
     21
 
 Why didn't it print "age" instead? In general, Console.WriteLine
 prints a string. If we put something else between the brackets, the program 
-will try to convert it to a string. That is, not the variable itself, but 
+will try to convert it to a string, i.e., not the variable itself, but 
 the value of the variable. In fact, all values can be converted to a string.
 What was actually printed in the example is the string "21", because the 
 value 21 was converted to the string "21". This can be done for all types 
@@ -467,9 +466,9 @@ to a string.
 So, we are adding "The age is " and "21". Since 
 addition of two string is defined as concatenating the strings (writing 
 the first string after the other), the result of the addition is "The age 
-is 21". This ability to chain 
-together several values (you can add as many values as you like inside 
-the brackets) is very useful for outputting a message on the screen.
+is 21". This ability to chain together several values (you can add as 
+many values as you like inside the brackets) is very useful for outputting 
+a message on the screen.
 
 Using string concatenation is one way of printing a longer message  
 consisting of a mix of text parts and variable values to the screen. 
@@ -496,8 +495,7 @@ replace {0} with that value. Then take the value from the next variable (age),
 and replace {1} with that value. So in this example {0} is replaced with 
 "James" and {1} is replaced with "23", producing the string above. 
 
-Note that 
-you can use this principle for as many variables as you wish by 
+Note that you can use this principle for as many variables as you wish by 
 including {2}, {3} etc. in the formatting string and adding the variables 
 themselves after the formatting string (separated by commas).
 

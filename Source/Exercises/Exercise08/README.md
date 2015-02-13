@@ -1,4 +1,4 @@
-﻿# Exercise 7: Logical expressions II
+﻿# Exercise 8: Logical expressions II
 
 Your task is to write logic expressions. First, declare two 
 integer variables a and b. Then set a equal to 7 and b equal 

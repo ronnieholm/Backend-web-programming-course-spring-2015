@@ -45,6 +45,7 @@
     <Compile Include="Exercise01\Solution.cs" />
     <Compile Include="Exercise02\Solution.cs" />
     <Compile Include="Exercise03\Car.cs" />
+    <Compile Include="Exercise03\CarSolution.cs" />
     <Compile Include="Exercise04\BankAccount.cs" />
     <Compile Include="Exercise05\ArithmeticExpressionsI.cs" />
     <Compile Include="Exercise06\ArithmeticsExpressionsII.cs" />

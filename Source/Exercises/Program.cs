@@ -24,9 +24,6 @@ namespace Exercises
             Console.WriteLine("y is : {0}", y);
             Console.WriteLine("x - y is : {0}", (x - y));
 
-
-            return 0;
-
             uint precision;
             bool isPrecisionPositiveInteger = uint.TryParse(args[0], out precision);
             if (!isPrecisionPositiveInteger || precision == 0)

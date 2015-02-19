@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Exercises.Exercise12
 {
+    // begin copy
     class Status
     {
         private string _statusText;
@@ -45,4 +46,5 @@ namespace Exercises.Exercise12
             return _dislikes;
         }
     }
+    // end copy
 }

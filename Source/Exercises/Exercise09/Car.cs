@@ -42,6 +42,7 @@ namespace Exercises.Exercise09 {
         Console.WriteLine("");
     */
 
+    // begin copy
     class Car
     {
         private string brand;
@@ -109,4 +110,5 @@ namespace Exercises.Exercise09 {
             return effect;
         }
     }
+    // end copy
 }

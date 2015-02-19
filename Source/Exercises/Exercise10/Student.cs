@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Exercises.Exercise10
 {
+    // begin copy
     class Student
     {
         private int[] _testScores;
@@ -59,4 +60,5 @@ namespace Exercises.Exercise10
             }
         }
     }
+    // end copy
 }

@@ -8,5 +8,7 @@ namespace Exercises.Exercise15
 {
     class BankAccount
     {
+        // intentionally left empty.
+        // No starting point provided for execise.
     }
 }

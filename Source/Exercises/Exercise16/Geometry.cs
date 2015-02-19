@@ -8,5 +8,7 @@ namespace Exercises.Exercise16
 {
     class Geometry
     {
+        // intentionally left empty.
+        // No starting point provided for execise.
     }
 }

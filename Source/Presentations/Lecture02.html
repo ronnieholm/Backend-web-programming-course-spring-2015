@@ -1,0 +1,208 @@
+﻿<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Lecture 2 - Data types</title>
+        <meta name="description" content="Lecture 2 - Data types">
+        <meta name="author" content="Ronnie Holm">
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <link rel="stylesheet" href="css/reveal.min.css">
+        <link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+        <!-- for syntax highlighting -->
+        <link rel="stylesheet" href="lib/css/zenburn.css">
+
+        <!-- if the query includes 'print-pdf', include the PDF print sheet --> 
+        <script>
+            if (window.location.search.match(/print-pdf/gi)) {
+                var link = document.createElement('link');
+                link.rel = 'stylesheet';
+                link.type = 'text/css';
+                link.href = 'css/print/pdf.css';
+                document.getElementsByTagName('head')[0].appendChild(link);
+            }
+        </script>
+
+        <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+        <div class="reveal">
+            <div class="slides">       
+                <section>
+                    <h1>Data types</h1>
+                    <p>
+                        <a href="http://bugfree.dk/blog">Ronnie Holm</a>
+                    </p>
+                </section>                  
+
+                <section>
+                    <h2>Overview</h2>
+                    <ul>
+                        <li>Data types in daily life</li>
+                        <li>Data types in mathematics</li>
+                        <li>Data types in .NET/C#</li>
+                        <li>Curious case of rounding errors</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Data types in daily life</h2>
+                    <ul>
+                        <li>Infinite set<br />
+                            Colors = { Red, Green, Blue, ... }</li>
+                        <li>Finite set<br />
+                            Sixth semester courses = { BE, FE, DB }<br />
+                            RO1500416iBa = { Christian, Nitisha, Jelena, Annemarie, Louise, Amir, Maria }</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <section>
+                        <h2>Data types in mathematics</h2>
+                        <ul>
+                            <li>Natural numbers<br /><pre>N = { 1, 2, 3, ... }</pre></li>
+                            <li>Integer numbers<br /><pre>Z = { ..., -2, -1, 0, 1, 2, 3, ... }</pre></li>
+                            <li>Rational numbers<br /><pre>Q = { -1/1, 0, 22/7, ... }</pre></li>
+                            <li>Irrational numbers<br /><pre>R = { -2, 0, 22/7, Sqrt(2), Pi, e, ...}</pre></li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2>Containment relationships</h2>
+                        <img src="Images/ContainmentRelationshipOfMathematicalDataTypes.png" />
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        <h2>Data types in .NET/C#</h2>
+                        <pre>
+                            bool = { true, false }
+                            int = { -2147483648, ..., 2147483647 }
+                            long = { −9223372036854775808, ..., 9223372036854775807 }
+                            float = 1.5 * 10^−45 to 3.4 * 10^38
+                            double = 5.0 * 10^-324 to 1.7 * 10^308
+                        </pre>
+                        <aside class="notes">
+                            <ul>
+                                <li>Floating-point values means the comma (point) is floating around</li>
+                                <li>Float and double stores number in this format: +-m × 2e</li>
+                                <li>Decimal uses alternate form of +-m × 10e</li>
+                            </ul>
+                            </aside>
+                        </section>
+                    <section>
+                        <h2>Containment relationships</h2>
+                        <img src="Images/ContainmentRelationshipOfDotNetDataTypes.png" />
+                    </section>
+                </section>
+
+                <section>
+                    <h2>.NET/C# data types vs. bit lengths</h2>
+                    <table style="margin-left: auto; margin-right: auto;">
+                        <thead>
+                            <tr>
+                                <th>Type</th>
+                                <th>Bit length</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>bool</td>
+                                <td>8</td>
+                            </tr>
+                            <tr>
+                                <td>int</td>
+                                <td>32</td>
+                            </tr>
+                            <tr>
+                                <td>long</td>
+                                <td>64</td>
+                            </tr>
+                            <tr>
+                                <td>float</td>
+                                <td>32</td>
+                            </tr>
+                            <tr>
+                                <td>double</td>
+                                <td>64</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <aside class="notes">
+                        How many permutations with 8 bit? With 32? With 64?
+                    </aside>
+                </section>
+                
+                <section>
+                    <section>
+                        <h2>Curious case of rounding errors</h2>
+                        <p>Definition of square root:</p>
+                        <blockquote>
+                            A square root of a number <b>a</b> is a number <b>y</b> such that y^2 = a.
+                            In other words, a number <b>y</b> whose square (the result of multiplying the number by itself, or y * y) is <b>a</b>.
+                        </blockquote>
+                        <p>or</p>
+                        <pre><code>
+                            double a = 2.0;           // 2.0000000000000
+                            double y = Math.Sqrt(a);  // 1.4142135623731 (finite-length, floating-point number)
+                            bool b = (y * y) == 2.0;  // false
+                        </code></pre>
+                    </section>
+
+                    <section>
+                        <h2>Approaching the mathematically correct value</h2>
+                        <pre><code>
+                            1.41^2                      = 1.9881
+                            1.414^2                     = 1.9999396
+                            1.4142^2                    = 1.99996164
+                            1.41421^2                   = 1.9999899241
+                            ...
+                            1.4142135623731^2           = 2.0000000000000142
+                            ...
+                            Math.Sqrt(2) * Math.Sqrt(2) = 2.0000000000000004
+                        </code></pre>
+                        <p>Account for difference when comparing</p>
+                        <pre><code>
+                            double squareRootOfTwo = Math.Sqrt(2.0);
+                            bool areEqual = Math.Abs(squareRootOfTwo - 2.0) < 0.01;
+                        </code></pre>
+                    </section>
+                </section>
+            </div>
+        </div>
+
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.min.js"></script>
+        <script>
+            // full list of configuration options available here:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: true,
+                progress: true,
+                history: true,
+                center: true,
+                theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+                transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+                // Parallax scrolling
+                // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+                // parallaxBackgroundSize: '2100px 900px',
+                // Optional libraries used to extend on reveal.js
+                dependencies: [
+                    { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                    { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+                    { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+                    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+                    { src: 'plugin/notes/notes.js', async: true, condition: function () { return !!document.body.classList; } }
+                ]
+            });
+        </script>
+    </body>
+</html>

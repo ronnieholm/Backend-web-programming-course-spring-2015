@@ -4,7 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercises.Exercise09 {
+namespace Exercises.Exercise09
+{
     /* make use of class from Main method like so:
 
         Car myCar = new Car();

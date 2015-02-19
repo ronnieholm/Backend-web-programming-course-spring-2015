@@ -55,6 +55,7 @@
     <Compile Include="Exercise08\LogicalExpressionsII.cs" />
     <Compile Include="Exercise08\LogicalExpressionsIISolution.cs" />
     <Compile Include="Exercise09\Car.cs" />
+    <Compile Include="Exercise10\Student.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -68,10 +69,10 @@
     <None Include="Exercise07\README.md" />
     <None Include="Exercise08\README.md" />
     <None Include="Exercise09\README.md" />
+    <None Include="Exercise10\README.md" />
+    <None Include="Exercise11\README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Exercise10\" />
-    <Folder Include="Exercise11\" />
     <Folder Include="Exercise12\" />
     <Folder Include="Exercise13\" />
   </ItemGroup>

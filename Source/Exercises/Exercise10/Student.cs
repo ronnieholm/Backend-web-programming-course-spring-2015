@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercises.Exercise08
+namespace Exercises.Exercise10
 {
     class Student
     {
@@ -16,7 +16,7 @@ namespace Exercises.Exercise08
         // and with the ability to store 50 test scores.
         public Student(string name)
         {
-            this._name = name;
+            _name = name;
             _noOfTestsTaken = 0;
             _testScores = new int[50];
         }

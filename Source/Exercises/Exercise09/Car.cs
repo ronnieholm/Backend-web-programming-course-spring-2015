@@ -12,19 +12,21 @@ namespace Exercises.Exercise09 {
         // print data about my car before setting values
         // we call the "Get..." methods here
         Console.WriteLine("Car data before setting values");
-        Console.WriteLine("Car data: brand is {0}, model is {1}, engine effect is {2}",
+        Console.WriteLine(
+            "Car data: brand is {0}, model is {1}, engine effect is {2}",
             myCar.GetBrand(), myCar.GetModelName(), myCar.GetEngineEffectInkW());
         Console.WriteLine("");
 
-        // we now call the "Set..." methods:
+        // we now call "Set..." methods:
         myCar.SetBrand("Volvo");
         myCar.SetModelName("V40");
         myCar.SetHorsePower(145.0);
 
-        // print data about my car after setting values
+        // print data about myCar after setting values
         // we call "Get..." methods here
         Console.WriteLine("Car data after setting values");
-        Console.WriteLine("Car data: brand is {0}, model is {1}, engine effect is {2}",
+        Console.WriteLine(
+            "Car data: brand is {0}, model is {1}, engine effect is {2}",
             myCar.GetBrand(), myCar.GetModelName(), myCar.GetEngineEffectInkW());
         Console.WriteLine("");
             
@@ -34,7 +36,8 @@ namespace Exercises.Exercise09 {
         // print data about car
         // we call "Get..." methods here
         Console.WriteLine("Car data using alternative constructor");
-        Console.WriteLine("Car data: brand is {0}, model is {1}, engine effect is {2}",
+        Console.WriteLine(
+            "Car data: brand is {0}, model is {1}, engine effect is {2}",
             yourCar.GetBrand(), yourCar.GetModelName(), yourCar.GetEngineEffectInkW());
         Console.WriteLine("");
     */
@@ -102,7 +105,7 @@ namespace Exercises.Exercise09 {
         // and returns value to caller
         public double GetEngineEffectInkW()
         {
-            double effect = horsePower * 0.745699872;    // I Googled it!
+            double effect = horsePower * 0.745699872;
             return effect;
         }
     }

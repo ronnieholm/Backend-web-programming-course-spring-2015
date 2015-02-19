@@ -71,6 +71,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Exercise10\" />
+    <Folder Include="Exercise11\" />
+    <Folder Include="Exercise12\" />
+    <Folder Include="Exercise13\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

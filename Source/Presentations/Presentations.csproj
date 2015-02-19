@@ -65,6 +65,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\ContainmentRelationshipOfDotNetDataTypes.png" />
+    <Content Include="Images\ContainmentRelationshipOfMathematicalDataTypes.png" />
+    <Content Include="Lecture02.html" />
     <Content Include="Lecture01.html" />
     <Content Include="index.html" />
     <None Include="Lecture02.md" />
@@ -73,6 +76,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

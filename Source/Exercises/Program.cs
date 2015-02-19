@@ -8,8 +8,30 @@ namespace Exercises
 {
     class Program
     {
-        static int Main(string[] args)
+        static void Main(string[] args)
         {
+            #region Preconditions
+
+            // What's the definition of square root from mathematics?
+            //
+            // Data types in math vs .NET/C#
+            //
+            // 
+            //
+            // Examples:
+            // 
+            //   Sqrt(9) = 3                     because 3^2 = 3 * 3 = 9 
+            //   Sqrt(2) = 1.4142135623731...    because 1.4142135623731...^2 = 2
+            //   
+            // The square root of two isn't a 
+            // 
+            var xxxx = (Math.Sqrt(2) * Math.Sqrt(2));
+            Console.WriteLine(xxxx);
+
+            Console.WriteLine("------------------------------");
+
+            #endregion
+
             double x = 2.0;
             double y = Math.Sqrt(x) * Math.Sqrt(x);
             bool bool6 = (x == y);
@@ -21,7 +43,10 @@ namespace Exercises
             Console.WriteLine("x is : {0}", x);
             Console.WriteLine("y is : {0}", y);
             Console.WriteLine("x - y is : {0}", (x - y));
-
+        }
+        
+        static int Main1(string[] args)
+        {
             uint precision;
             bool isPrecisionPositiveInteger = uint.TryParse(args[0], out precision);
             if (!isPrecisionPositiveInteger || precision == 0)

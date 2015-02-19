@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 
 namespace Exercises.Exercise14
 {
+    // begin copy
+
     // represents a classic 6-sided die.
     class Die
     {
@@ -36,4 +38,6 @@ namespace Exercises.Exercise14
             return value;
         }
     }
+
+    // end copy
 }

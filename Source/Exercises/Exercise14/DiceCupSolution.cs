@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace Exercises.Exercise14
 {
+    // begin copy
+
     class DiceCup
     {
         private Die die1;
@@ -27,4 +29,6 @@ namespace Exercises.Exercise14
         // you must create a method with the signature below
         // public bool IsTotalValueLargerThan(int value)
     }
+
+    // end copy
 }

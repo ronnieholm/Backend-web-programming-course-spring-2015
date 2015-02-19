@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace Exercises.Exercise11
 {
     // begin copy
+
     class Book
     {
         // instance fields
@@ -85,5 +86,6 @@ namespace Exercises.Exercise11
             }
         }
     }
+
     // end copy
 }

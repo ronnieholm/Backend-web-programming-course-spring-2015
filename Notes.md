@@ -855,8 +855,8 @@ Recall that state is indeed object-specific. Two different objects of the same c
 will have the same set of instance fields but the values of the instance fields may 
 be different:
 
-    State of one object: { "John", 1988, 3 , True}
-    State of a different object: { "Susan", 1984, 0, False}
+    State of one object: { "John", 1988, 3 , True }
+    State of a different object: { "Susan", 1984, 0, False }
 
 # Methods and behavior
 

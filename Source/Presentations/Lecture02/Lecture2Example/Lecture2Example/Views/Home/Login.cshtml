@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+}
+
+<h2>Login</h2>
+
+<form method="post">
+    <label for="newPassword">New password</label>
+    <input type="text" id="newPassword" name="newPassword" />
+    <label for="repeatedPassword">Repeated password</label>
+    <input type="text" id="repeatedPassword" name="repeatedPassword" />
+    <input type="submit" value="Submit">
+
+    @if (ViewBag.PasswordSuccesfullyChanged) 
+    {
+        <p>Password changed</p> 
+    }
+</form>

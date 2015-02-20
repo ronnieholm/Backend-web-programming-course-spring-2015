@@ -74,7 +74,7 @@ namespace Exercises.Exercise11
 
         // helper method to make printing of book information look nicer. 
         // Don't worry about how the method works just yet.
-        private string LoanStatus()
+        public string LoanStatus()
         {
             if (_bookIsLoanedOut)
             {

@@ -12,7 +12,7 @@ called FruitBox in the FruitBox.cs file.
    
    (a) Creates a new FruitBox object
    (b) Prints out information about the fruit box. Use the GetBoxContentDescription method
-   for this purpose
+       for this purpose
    (c) Adds some fruit to the box by calling the appropriate methods
    (d) Prints out the information again. Now you should see that the information changed
 

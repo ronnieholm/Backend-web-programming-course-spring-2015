@@ -50,18 +50,34 @@ Classes are Fridays 9am-2pm
 	  <td>3, 4, 5, 6, 7, 8</td>
 	</tr>
 	<tr>
-	  <td>3-5</td>
-	  <td>Feb 20, Feb 27, Mar 6</td>
+	  <td>3</td>
+	  <td>Feb 20</td>
 	  <td>
 		<p>Using classes and objects</p>
 		<p>Creating objects</p>
 		<p>Using methods on objects</p>
-		<p>Defining classes</p>
-		<p>Method definitions</p>
 		<p>Debugging</p>
 	  </td>
 	  <td>105-123, 131-146, 157-170, 177-182, 203-208</td>
-	  <td>9, 10, 11, 12, 13, 14, 15, 16</td>
+	  <td>9, 10, 11</td>
+	</tr>
+	<tr>
+	  <td>4</td>
+	  <td>Feb 27</td>
+	  <td>
+		<p>Defining classes</p>
+		<p>Method definitions</p>
+	  </td>
+	  <td>Same as for #3</td>
+	  <td>12, 13, 14, 15, 16</td>
+	</tr>
+    <tr>
+	  <td>5</td>
+	  <td>Mar 5</td>
+	  <td>
+	  </td>
+	  <td></td>
+	  <td></td>
 	</tr>
 	<tr>
 	  <td>6</td>

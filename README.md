@@ -59,7 +59,7 @@ Classes are Fridays 9am-2pm
 		<p>Debugging</p>
 	  </td>
 	  <td>105-123, 131-146, 157-170, 177-182, 203-208</td>
-	  <td>9, 10, 11</td>
+	  <td>9, 10, 11, 12</td>
 	</tr>
 	<tr>
 	  <td>4</td>
@@ -69,7 +69,7 @@ Classes are Fridays 9am-2pm
 		<p>Method definitions</p>
 	  </td>
 	  <td>Same as for #3</td>
-	  <td>12, 13, 14, 15, 16</td>
+	  <td>13, 14, 15, 16</td>
 	</tr>
     <tr>
 	  <td>5</td>

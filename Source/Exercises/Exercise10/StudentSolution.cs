@@ -31,66 +31,64 @@ namespace Exercises.Exercise10
 
     class StudentSolution
     {
-        private int[] testScores;
-        private int noOfTestsTaken;
-        private string name;
+        private int[] _testScores;
+        private int _noOfTestsTaken;
+        private string _name;
 
         // 3a
-        private string country;
+        private string _country;
 
-        // Creates a Student object with the provided name
-        // The number of tests is initially 0 (zero)
+        // creates Student object with the provided name, number of tests set to zero,
+        // and with the ability to store 50 test scores.
         // 3b
         public StudentSolution(string name, string country)
         {
-            this.name = name;
-            this.country = country;
-            noOfTestsTaken = 0;
-            testScores = new int[50];
+            _name = name;
+            _country = country;
+            _noOfTestsTaken = 0;
+            _testScores = new int[50];
         }
 
         // 3c
         public string GetCountry()
         {
-            return country;
+            return _country;
         }
 
-        // Add a single test score. A score is a number between
-        // 0 and 100
+        // adds a single test score which is imagine to be a number between 0 and 100
         public void AddTestScore(int score)
         {
-            testScores[noOfTestsTaken] = score;
-            noOfTestsTaken++;
+            _testScores[_noOfTestsTaken] = score;
+            _noOfTestsTaken++;
         }
 
-        // Return the name of the student
+        // returns name of student
         public String GetName()
         {
-            return name;
+            return _name;
         }
 
-        // Return the number of tests the student has taken
+        // returns number of tests student has taken
         public int GetNumberOfTestsTaken()
         {
-            return noOfTestsTaken;
+            return _noOfTestsTaken;
         }
 
-        // Calculate and return the average value of the scores 
-        // for the tests the student has taken
+        // calculates and return average value of scores for tests student has taken
         public int GetAverageTestScore()
         {
-            if (noOfTestsTaken == 0)
+            if (_noOfTestsTaken == 0)
             {
                 return 0;
             }
             else
             {
                 int sum = 0;
-                for (int index = 0; index < noOfTestsTaken; index++)
+                for (int index = 0; index < _noOfTestsTaken; index++)
                 {
-                    sum = sum + testScores[index];
+                    sum = sum + _testScores[index];
                 }
-                int average = sum / noOfTestsTaken;
+                int average = sum / _noOfTestsTaken;
 
                 return average;
             }

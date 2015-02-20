@@ -58,6 +58,7 @@
     <Compile Include="Exercise10\Student.cs" />
     <Compile Include="Exercise10\StudentSolution.cs" />
     <Compile Include="Exercise11\Book.cs" />
+    <Compile Include="Exercise11\BookSolution.cs" />
     <Compile Include="Exercise12\Status.cs" />
     <Compile Include="Exercise13\FruitBox.cs" />
     <Compile Include="Exercise14\DiceCupSolution.cs" />

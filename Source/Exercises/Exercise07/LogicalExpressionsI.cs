@@ -34,6 +34,9 @@ namespace Exercises.Exercise07
             bool bool5 = (da == db);
             //Console.WriteLine("The value of bool5 is : {0}", bool5);
 
+            // 123456
+            // 123
+
             // 6
             double x = 2.0;
             double y = Math.Sqrt(x) * Math.Sqrt(x);

@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace Exercises.Exercise21
 {
+    // begin copy
+
     class WhileLoops
     {
         public void MyCode()
@@ -61,4 +63,6 @@ namespace Exercises.Exercise21
             // print out the numbers 10,9,12,7,14,5,16,3,18,1
         }
     }
+
+    // end copy
 }

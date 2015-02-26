@@ -75,6 +75,8 @@
     <Compile Include="Exercise20\BodyAnalyzerSolution.cs" />
     <Compile Include="Exercise21\WhileLoops.cs" />
     <Compile Include="Exercise21\WhileLoopsSolution.cs" />
+    <Compile Include="Exercise22\CubeCalculator.cs" />
+    <Compile Include="Exercise22\CubeCalculatorSolution.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -100,9 +102,9 @@
     <None Include="Exercise19\README.md" />
     <None Include="Exercise20\README.md" />
     <None Include="Exercise21\README.md" />
+    <None Include="Exercise22\README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Exercise22\" />
     <Folder Include="Exercise23\" />
     <Folder Include="Exercise24\" />
     <Folder Include="Exercise25\" />

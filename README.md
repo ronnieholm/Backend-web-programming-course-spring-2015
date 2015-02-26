@@ -58,7 +58,7 @@ Classes are Fridays 9am-2pm
 		<p>Using methods on objects</p>
 		<p>Debugging</p>
 	  </td>
-	  <td>105-123, 131-146, 157-170, 177-182, 203-208</td>
+	  <td>105-123, 131-146, 157-163, 203-208</td>
 	  <td>9, 10, 11, 12</td>
 	</tr>
 	<tr>
@@ -123,7 +123,7 @@ Classes are Fridays 9am-2pm
 		<p>Polymorphism</p>
 		<p>Interfaces</p>
 	  </td>
-	  <td>163-167</td>
+	  <td>163-169, 177-182</td>
 	  <td>The Bank Job, 26, 27</td>
 	</tr>
 	<tr>

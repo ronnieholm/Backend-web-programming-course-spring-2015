@@ -14,9 +14,10 @@ solution contains a new class called Book in the Book.cs file.
 2. Now try to use the Book class yourself. Insert some code into 
    the solution (in the Main method), that does 
    the following: 
+
    (a) Creates a new Book object 
    (b) Print out some information about the book (there is a 
-   method you can call for that, remember?) 
+       method you can call for that, remember?) 
    (c) Loan the book and print the book information again 
    (d) Return the book and print the book information again 
 
@@ -24,19 +25,20 @@ solution contains a new class called Book in the Book.cs file.
    number of times a book has been borrowed. To do this, you 
    must add code to the Book class. More specifically, you need 
    to:  
+
    (a) Add a new instance field numberOfLoans to store the 
-   number of times a book has been borrowed (what 
-   would be a good type to use for this field?), 
+       number of times a book has been borrowed (what 
+       would be a good type to use for this field?), 
    (b) Update the constructor to give this instance field an 
-   initial value (what seems like an obvious initial value?), 
+       initial value (what seems like an obvious initial value?), 
    (c) Figure out when we should change the value of the new 
-   field (Hint: What method will be activated when you 
-   borrow a book?), 
+       field (Hint: What method will be activated when you 
+       borrow a book?), 
    (d) Add a method GetNumberOfLoans, that will return the 
-   value of the new field, 
+       value of the new field, 
    (e) Update the code that prints book information, so that it 
-   also includes the number of times the book has been 
-   loaned 
+       also includes the number of times the book has been 
+       loaned 
 
 4. Finally, test your new code by updating the code from part 2. 
    You should try to loan and return a book several times, to see 

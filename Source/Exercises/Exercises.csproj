@@ -72,6 +72,9 @@
     <Compile Include="Exercise19\MysticNumbers.cs" />
     <Compile Include="Exercise19\MysticNumbersSolution.cs" />
     <Compile Include="Exercise20\BodyAnalyzer.cs" />
+    <Compile Include="Exercise20\BodyAnalyzerSolution.cs" />
+    <Compile Include="Exercise21\WhileLoops.cs" />
+    <Compile Include="Exercise21\WhileLoopsSolution.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -96,8 +99,19 @@
     <None Include="Exercise18\README.md" />
     <None Include="Exercise19\README.md" />
     <None Include="Exercise20\README.md" />
+    <None Include="Exercise21\README.md" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Exercise22\" />
+    <Folder Include="Exercise23\" />
+    <Folder Include="Exercise24\" />
+    <Folder Include="Exercise25\" />
+    <Folder Include="Exercise26\" />
+    <Folder Include="Exercise27\" />
+    <Folder Include="Exercise28\" />
+    <Folder Include="Exercise29\" />
+    <Folder Include="Exercise30\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -89,7 +89,7 @@ Classes are Fridays 9am-2pm
 		<p>switch statement</p>
 	  </td>
 	  <td>59-65</td>
-	  <td>13, 14, 15, 16</td>
+	  <td>17, 18, 19, 20</td>
 	</tr>
 	<tr>
 	  <td>7</td>

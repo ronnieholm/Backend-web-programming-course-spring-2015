@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace Exercises.Exercise18
 {
+    // begin copy
+
     class BankAccount
     {
         private double _balance;
@@ -30,4 +32,6 @@ namespace Exercises.Exercise18
             return _balance;
         }
     }
+
+    // end copy
 }

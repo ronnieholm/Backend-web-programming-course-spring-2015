@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace Exercises.Exercise19
 {
+    // begin copy
+
     class MysticNumbers
     {
         public int ThreeNumbers(int a, int b, int c)
@@ -32,4 +34,6 @@ namespace Exercises.Exercise19
             return result;
         }
     }
+
+    // end copy
 }

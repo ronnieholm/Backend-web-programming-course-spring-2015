@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace Exercises.Exercise17
 {
+    // begin copy
+
     public class Runner
     {
         public void Run()
@@ -147,4 +149,6 @@ namespace Exercises.Exercise17
             return rentalPrice;
         }
     }
+
+    // end copy
 }

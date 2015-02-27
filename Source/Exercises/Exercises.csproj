@@ -79,6 +79,8 @@
     <Compile Include="Exercise22\CubeCalculatorSolution.cs" />
     <Compile Include="Exercise23\CorrectChange.cs" />
     <Compile Include="Exercise23\CorrectChangeSolution.cs" />
+    <Compile Include="Exercise24\BattleLog.cs" />
+    <Compile Include="Exercise24\Beast.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -106,9 +108,9 @@
     <None Include="Exercise21\README.md" />
     <None Include="Exercise22\README.md" />
     <None Include="Exercise23\README.md" />
+    <None Include="Exercise24\README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Exercise24\" />
     <Folder Include="Exercise25\" />
     <Folder Include="Exercise26\" />
     <Folder Include="Exercise27\" />

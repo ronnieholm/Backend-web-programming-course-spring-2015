@@ -10,14 +10,14 @@ namespace Exercises.Exercise14
 
     class DiceCup
     {
-        private Die die1;
-        private Die die2;
+        private Die _die1;
+        private Die _die2;
 
         public DiceCup()
         {
             // create actual objects in the constructor that the instance fields point to.
-            die1 = new Die();
-            die2 = new Die();
+            _die1 = new Die();
+            _die2 = new Die();
         }
 
         // you must create a method with the signature below

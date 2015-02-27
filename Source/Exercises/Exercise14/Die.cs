@@ -12,13 +12,13 @@ namespace Exercises.Exercise14
     // represents a classic 6-sided die.
     class Die
     {
-        private int value;
-        private Random generator;
+        private int _value;
+        private Random _generator;
 
         public Die()
         {
             // generator for random numbers
-            generator = new Random();
+            _generator = new Random();
 
             // needed for magical purposes
             Thread.Sleep(10);
@@ -30,12 +30,12 @@ namespace Exercises.Exercise14
         // roll die. Value will be set to a random number between 1 and 6 (inclusive).
         public void RollDie()
         {
-            value = generator.Next(6) + 1;
+            _value = _generator.Next(6) + 1;
         }
 
         public int GetValue()
         {
-            return value;
+            return _value;
         }
     }
 

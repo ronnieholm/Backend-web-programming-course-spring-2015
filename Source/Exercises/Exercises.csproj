@@ -80,7 +80,6 @@
     <Compile Include="Exercise23\CorrectChange.cs" />
     <Compile Include="Exercise23\CorrectChangeSolution.cs" />
     <Compile Include="Exercise24\BattleLog.cs" />
-    <Compile Include="Exercise24\Beast.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

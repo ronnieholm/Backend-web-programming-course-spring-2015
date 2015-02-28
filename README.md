@@ -123,7 +123,7 @@ Classes are Fridays 9am-2pm
 	  <td>9-10</td>
 	  <td>Mar Apr 10, Apr 17</td>
 	  <td>
-		<p>Error handling, "bit & pieces"</p>
+		<p>Error handling bits and pieces</p>
 		<p>Defensive programming</p>
 		<p>Exceptions</p>
 		<p>Constants</p>
@@ -135,7 +135,23 @@ Classes are Fridays 9am-2pm
 	</tr>
 	<tr>
 	  <td>11-13</td>
-	  <td>Apr 24, May 8, May 22</td>
+	  <td>Apr 24</td>
+	  <td>		
+	  </td>
+	  <td></td>
+	  <td></td>
+	</tr>
+	<tr>
+	  <td>12</td>
+	  <td>May 8</td>
+	  <td>		
+	  </td>
+	  <td></td>
+	  <td></td>
+	</tr>
+	<tr>
+	  <td>13</td>
+	  <td>May 22</td>
 	  <td>		
 	  </td>
 	  <td></td>

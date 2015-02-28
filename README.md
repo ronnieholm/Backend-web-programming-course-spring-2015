@@ -10,6 +10,7 @@ RO-115/RO-E309
 - <a href="http://www.amazon.com/Beginning-Visual-C-2012-Programming/dp/1118314417/ref=sr_1_1?s=books&ie=UTF8&qid=1399059557&sr=1-1&keywords=9781118314418">C#: Karli Watson et al. "Beginning Visual C# 2012 Programming", ISBN 978-1118314418</a>
 - <a href="http://channel9.msdn.com/Series/C-Sharp-Fundamentals-Development-for-Absolute-Beginners">The C# Fundamentals Development for Absolute Beginners</a>
 - <a href="https://github.com/ronnieholm/Programming-technology-course-spring-2013/blob/master/Lecture%207%20-%20Patterns%20in%20software%20development.pptx?raw=true">Patterns in software development</a>
+- <a href="blob/master/Notes.md">Lecture notes from earlier course</a>
 
 ## Schedule
 
@@ -134,7 +135,7 @@ Classes are Fridays 9am-2pm
 	  <td>28, 29, 30</td>
 	</tr>
 	<tr>
-	  <td>11-13</td>
+	  <td>11</td>
 	  <td>Apr 24</td>
 	  <td>		
 	  </td>

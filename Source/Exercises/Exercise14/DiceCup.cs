@@ -21,13 +21,13 @@ namespace Exercises.Exercise14
         }
 
         // you must create a method with the signature below
-        // public void RollDice()
+        // public void RollDice() { }
 
         // you must create a method with the signature below
-        // public int GetTotalValue()
+        // public int GetTotalValue() { }
 
         // you must create a method with the signature below
-        // public bool IsTotalValueLargerThan(int value)
+        // public bool IsTotalValueLargerThan(int value) { }
     }
 
     // end copy

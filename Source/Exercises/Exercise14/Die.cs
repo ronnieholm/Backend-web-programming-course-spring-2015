@@ -20,7 +20,7 @@ namespace Exercises.Exercise14
             _generator = new Random();
 
             // needed for magical purposes
-            System.Threading.Thread.Sleep(10);
+            System.Threading.Thread.Sleep(1000);
 
             // puts die in a well-defined state
             RollDie();

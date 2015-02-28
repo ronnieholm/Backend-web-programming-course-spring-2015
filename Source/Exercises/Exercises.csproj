@@ -64,9 +64,12 @@
     <Compile Include="Exercise13\FruitBox.cs" />
     <Compile Include="Exercise13\FruitBoxSolution.cs" />
     <Compile Include="Exercise14\DiceCup.cs" />
+    <Compile Include="Exercise14\DiceCupSolution.cs" />
     <Compile Include="Exercise14\Die.cs" />
     <Compile Include="Exercise15\BankAccount.cs" />
+    <Compile Include="Exercise15\BankAccountSolution.cs" />
     <Compile Include="Exercise16\Geometry.cs" />
+    <Compile Include="Exercise16\GeometrySolution.cs" />
     <Compile Include="Exercise17\Car.cs" />
     <Compile Include="Exercise18\BankAccount.cs" />
     <Compile Include="Exercise18\BankAccountSolution.cs" />

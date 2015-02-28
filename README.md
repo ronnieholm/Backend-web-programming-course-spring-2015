@@ -75,39 +75,32 @@ Classes are Fridays 9am-2pm
 	  <td>5</td>
 	  <td>Mar 5</td>
 	  <td>
-	  </td>
-	  <td></td>
-	  <td></td>
-	</tr>
-	<tr>
-	  <td>6</td>
-	  <td>Mar 13</td>
-	  <td>
 		<p>Conditional statements</p>
-		<p>if-statement</p>
-		<p>if/else-statement</p>
-		<p>switch statement</p>
+		<p>if statements</p>
+		<p>if/else statements</p>
+		<p>switch statements</p>
 	  </td>
 	  <td>59-65</td>
 	  <td>17, 18, 19, 20</td>
 	</tr>
 	<tr>
+	  <td>6</td>
+	  <td>Mar 13</td>
+	  <td>
+		<p>Repetition statements</p>
+		<p>while loops</p>
+		<p>for loops</p>
+	  </td>
+	  <td>68-75</td>
+	  <td>17, 18, 18a, 18b, 19, 19a, 20
+    </td>
+	</tr>
+	<tr>
 	  <td>7</td>
 	  <td>Mar 20</td>
 	  <td>
-		<p>Repetition statements</p>
-		<p>while-loop</p>
-		<p>for-loop</p>
-	  </td>
-	  <td>68-75</td>
-	  <td>17, 18, 18a, 18b, 19, 19a, 20</td>
-	</tr>
-	<tr>
-	  <td>8</td>
-	  <td>Mar 27</td>
-	  <td>
 		<p>Data structures</p>
-		<p>Array and foreach-loop</p>
+		<p>Array and foreach loop</p>
 		<p>List</p>
 		<p>Dictionary</p>
 	  </td>
@@ -115,8 +108,8 @@ Classes are Fridays 9am-2pm
 	  <td>21, 22, 23, 24, 25</td>
 	</tr>
 	<tr>
-	  <td>9-10</td>
-	  <td>Mar Apr 10, Apr 17</td>
+	  <td>8</td>
+	  <td>Mar 27</td>
 	  <td>
 		<p>Combining classes</p>
 		<p>Inheritance</p>
@@ -127,8 +120,8 @@ Classes are Fridays 9am-2pm
 	  <td>The Bank Job, 26, 27</td>
 	</tr>
 	<tr>
-	  <td>11-13</td>
-	  <td>Apr 24, May 8, May 22</td>
+	  <td>9-10</td>
+	  <td>Mar Apr 10, Apr 17</td>
 	  <td>
 		<p>Error handling, "bit & pieces"</p>
 		<p>Defensive programming</p>
@@ -139,6 +132,14 @@ Classes are Fridays 9am-2pm
 	  </td>
 	  <td>64, 87-90, 147-153, 162-163, 315-316</td>
 	  <td>28, 29, 30</td>
+	</tr>
+	<tr>
+	  <td>11-13</td>
+	  <td>Apr 24, May 8, May 22</td>
+	  <td>		
+	  </td>
+	  <td></td>
+	  <td></td>
 	</tr>
 	<tr>
 	  <td>-</td>

@@ -41,8 +41,7 @@ namespace Exercises.Exercise17
         private int _numberOfSeats;
         private bool _hasAirCondition;
 
-        // constructor creates a Car object with instance fields set
-        // by using values provided in parameter list.
+        // constructor creates a Car object with instance fields set using values provided in parameter list.
         public Car(string brand, string modelName, double horsePower, double kmPerLiter, int numberOfSeats, bool hasAirCondition)
         {
             _brand = brand;

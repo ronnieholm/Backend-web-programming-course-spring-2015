@@ -19,7 +19,7 @@ Classes are Fridays 9am-2pm
   <table>
     <tr>
 	  <th>#</th>
-	  <th>Data</th>
+	  <th>Date</th>
 	  <th>Topics</th>
 	  <th>Reading</th>
 	  <th>Exercises</th>

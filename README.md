@@ -74,7 +74,7 @@ Classes are Fridays 9am-2pm
 	</tr>
     <tr>
 	  <td>5</td>
-	  <td>Mar 5</td>
+	  <td>Mar 6</td>
 	  <td>
 		<p>Conditional statements</p>
 		<p>if statements</p>
@@ -168,8 +168,17 @@ Classes are Fridays 9am-2pm
 	  <td>&nbsp;</td>
 	</tr>
 	<tr>
-	  <td>14-15</td>
-	  <td>May 29, June 5, June 12</td>
+	  <td>14</td>
+	  <td>May 29</td>
+	  <td>
+		<p>Review</p>
+	  </td>
+	  <td></td>
+	  <td>&nbsp;</td>
+	</tr>
+	<tr>
+	  <td>15</td>
+	  <tdJune 5</td>
 	  <td>
 		<p>Review</p>
 	  </td>

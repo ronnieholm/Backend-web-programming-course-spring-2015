@@ -92,7 +92,7 @@ Classes are Fridays 9am-2pm
 		<p>while loops</p>
 		<p>for loops</p>
 	  </td>
-	  <td>68-75</td>
+	  <td>65-75</td>
 	  <td>17, 18, 18a, 18b, 19, 19a, 20
     </td>
 	</tr>

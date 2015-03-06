@@ -24,7 +24,7 @@ namespace Exercises.Exercise24
 
         public void PrintEntireBattleLog()
         {
-            Console.WriteLine("Battle log :");
+            Console.WriteLine("Battle log");
             Console.WriteLine("======================================");
             foreach (string s in _log)
             {

@@ -45,4 +45,3 @@ playing games (RPG).
      c. Do we really need separate classes for Hero and Beast? What would 
 	    we need to add to obtain a more general Character class?
      d. How could you implement weapons and armor, healing abilities, etc?
-

@@ -84,6 +84,11 @@
     <Compile Include="Exercise23\CorrectChange.cs" />
     <Compile Include="Exercise23\CorrectChangeSolution.cs" />
     <Compile Include="Exercise24\BattleLog.cs" />
+    <Compile Include="Exercise24\Beast.cs" />
+    <Compile Include="Exercise24\Hero.cs" />
+    <Compile Include="Exercise24\NumberGenerator.cs" />
+    <Compile Include="Exercise24\Runner.cs" />
+    <Compile Include="Exercise24\RunnerSolution.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

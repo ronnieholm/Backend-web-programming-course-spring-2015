@@ -91,6 +91,10 @@
     <Compile Include="Exercise24\RunnerSolution.cs" />
     <Compile Include="Exercise25\ForLoops.cs" />
     <Compile Include="Exercise25\ForLoopsSolution.cs" />
+    <Compile Include="Exercise26\DrawingTool.cs" />
+    <Compile Include="Exercise26\DrawingToolSolution.cs" />
+    <Compile Include="Exercise27\MathLibrary.cs" />
+    <Compile Include="Exercise27\MathLibrarySolution.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -120,10 +124,10 @@
     <None Include="Exercise23\README.md" />
     <None Include="Exercise24\README.md" />
     <None Include="Exercise25\README.md" />
+    <None Include="Exercise26\README.md" />
+    <None Include="Exercise27\README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Exercise26\" />
-    <Folder Include="Exercise27\" />
     <Folder Include="Exercise28\" />
     <Folder Include="Exercise29\" />
     <Folder Include="Exercise30\" />

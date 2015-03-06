@@ -131,6 +131,12 @@
     <Folder Include="Exercise28\" />
     <Folder Include="Exercise29\" />
     <Folder Include="Exercise30\" />
+    <Folder Include="Exercise31\" />
+    <Folder Include="Exercise32\" />
+    <Folder Include="Exercise33\" />
+    <Folder Include="Exercise34\" />
+    <Folder Include="Exercise35\" />
+    <Folder Include="Exercise36\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

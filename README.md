@@ -93,7 +93,7 @@ Classes are Fridays 9am-2pm
 		<p>for loops</p>
 	  </td>
 	  <td>65-75</td>
-	  <td>17, 18, 18a, 18b, 19, 19a, 20
+	  <td>21, 22, 23, 24, 25, 26, 27
     </td>
 	</tr>
 	<tr>

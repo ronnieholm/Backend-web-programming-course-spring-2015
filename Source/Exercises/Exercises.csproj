@@ -89,6 +89,8 @@
     <Compile Include="Exercise24\NumberGenerator.cs" />
     <Compile Include="Exercise24\Runner.cs" />
     <Compile Include="Exercise24\RunnerSolution.cs" />
+    <Compile Include="Exercise25\ForLoops.cs" />
+    <Compile Include="Exercise25\ForLoopsSolution.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -117,9 +119,9 @@
     <None Include="Exercise22\README.md" />
     <None Include="Exercise23\README.md" />
     <None Include="Exercise24\README.md" />
+    <None Include="Exercise25\README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Exercise25\" />
     <Folder Include="Exercise26\" />
     <Folder Include="Exercise27\" />
     <Folder Include="Exercise28\" />

@@ -108,6 +108,10 @@
     <Compile Include="Exercise31\StudentCollection.cs" />
     <Compile Include="Exercise32\Employee.cs" />
     <Compile Include="Exercise32\EmployeeSolution.cs" />
+    <Compile Include="Exercise33\Employee.cs" />
+    <Compile Include="Exercise33\EmployeeSolution.cs" />
+    <Compile Include="Exercise34\Exception.cs" />
+    <Compile Include="Exercise34\ExceptionSolution.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -144,10 +148,10 @@
     <None Include="Exercise30\README.md" />
     <None Include="Exercise31\README.md" />
     <None Include="Exercise32\README.md" />
+    <None Include="Exercise33\README.md" />
+    <None Include="Exercise34\README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Exercise33\" />
-    <Folder Include="Exercise34\" />
     <Folder Include="Exercise35\" />
     <Folder Include="Exercise36\" />
   </ItemGroup>

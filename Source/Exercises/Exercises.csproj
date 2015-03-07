@@ -100,6 +100,12 @@
     <Compile Include="Exercise29\Book.cs" />
     <Compile Include="Exercise29\BookCollection.cs" />
     <Compile Include="Exercise29\BookCollectionSolution.cs" />
+    <Compile Include="Exercise30\Car.cs" />
+    <Compile Include="Exercise30\CarPool.cs" />
+    <Compile Include="Exercise30\CarPoolSolution.cs" />
+    <Compile Include="Exercise31\Student.cs" />
+    <Compile Include="Exercise31\StudentCollectionSolution.cs" />
+    <Compile Include="Exercise31\StudentCollection.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -133,10 +139,10 @@
     <None Include="Exercise27\README.md" />
     <None Include="Exercise28\README.md" />
     <None Include="Exercise29\README.md" />
+    <None Include="Exercise30\README.md" />
+    <None Include="Exercise31\README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Exercise30\" />
-    <Folder Include="Exercise31\" />
     <Folder Include="Exercise32\" />
     <Folder Include="Exercise33\" />
     <Folder Include="Exercise34\" />

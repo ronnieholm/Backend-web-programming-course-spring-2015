@@ -71,7 +71,10 @@ Classes are Fridays 9am-2pm
 	  </td>
 	  <td>105-123, 131-146, 157-163, 203-208</td>
 	  <td>
-		9, 10, 11, 12
+		<a href="Source/Exercises/Exercise09">9</a>, 
+		<a href="Source/Exercises/Exercise10">10</a>, 
+		<a href="Source/Exercises/Exercise11">11</a>, 
+		<a href="Source/Exercises/Exercise12">12</a>
 	  </td>
 	</tr>
 	<tr>
@@ -83,7 +86,10 @@ Classes are Fridays 9am-2pm
 	  </td>
 	  <td>Same as for #3</td>
 	  <td>
-		13, 14, 15, 16
+		<a href="Source/Exercises/Exercise13">13</a>, 
+		<a href="Source/Exercises/Exercise14">14</a>, 
+		<a href="Source/Exercises/Exercise15">15</a>, 
+		<a href="Source/Exercises/Exercise16">16</a>
 	  </td>
 	</tr>
     <tr>
@@ -97,7 +103,10 @@ Classes are Fridays 9am-2pm
 	  </td>
 	  <td>59-65</td>
 	  <td>
-		17, 18, 19, 20
+		<a href="Source/Exercises/Exercise17">17</a>, 
+		<a href="Source/Exercises/Exercise18">18</a>, 
+		<a href="Source/Exercises/Exercise19">19</a>, 
+		<a href="Source/Exercises/Exercise20">20</a>
 	  </td>
 	</tr>
 	<tr>
@@ -110,7 +119,13 @@ Classes are Fridays 9am-2pm
 	  </td>
 	  <td>65-75</td>
 	  <td>
-		21, 22, 23, 24, 25, 26, 27
+		<a href="Source/Exercises/Exercise21">21</a>, 
+		<a href="Source/Exercises/Exercise22">22</a>, 
+		<a href="Source/Exercises/Exercise23">23</a>, 
+		<a href="Source/Exercises/Exercise24">24</a>, 
+		<a href="Source/Exercises/Exercise25">25</a>, 
+		<a href="Source/Exercises/Exercise26">26</a>, 
+		<a href="Source/Exercises/Exercise27">27</a>
 	  </td>
 	</tr>
 	<tr>
@@ -124,7 +139,10 @@ Classes are Fridays 9am-2pm
 	  </td>
 	  <td>92-98, 287-288, 294-295</td>
 	  <td>
-	    28, 29, 30, 31
+		<a href="Source/Exercises/Exercise28">28</a>, 
+		<a href="Source/Exercises/Exercise29">29</a>, 
+		<a href="Source/Exercises/Exercise30">30</a>, 
+		<a href="Source/Exercises/Exercise31">31</a>
 	  </td>
 	</tr>
 	<tr>
@@ -138,7 +156,8 @@ Classes are Fridays 9am-2pm
 	  </td>
 	  <td>163-169, 177-182</td>
 	  <td>
-	    32, 33
+		<a href="Source/Exercises/Exercise32">32</a>, 
+		<a href="Source/Exercises/Exercise33">33</a>
 	  </td>
 	</tr>
 	<tr>
@@ -154,7 +173,9 @@ Classes are Fridays 9am-2pm
 	  </td>
 	  <td>64, 87-90, 147-153, 162-163, 315-316</td>
 	  <td>
-	    34, 35, 36
+		<a href="Source/Exercises/Exercise34">34</a>, 
+		<a href="Source/Exercises/Exercise35">35</a>, 
+		<a href="Source/Exercises/Exercise36">36</a>
 	  </td>
 	</tr>
 	<tr>

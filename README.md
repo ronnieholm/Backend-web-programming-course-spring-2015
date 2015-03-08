@@ -106,7 +106,7 @@ Classes are Fridays 9am-2pm
 		<p>Dictionary</p>
 	  </td>
 	  <td>92-98, 287-288, 294-295</td>
-	  <td>21, 22, 23, 24, 25</td>
+	  <td>28, 29, 30, 31</td>
 	</tr>
 	<tr>
 	  <td>8</td>
@@ -118,7 +118,7 @@ Classes are Fridays 9am-2pm
 		<p>Interfaces</p>
 	  </td>
 	  <td>163-169, 177-182</td>
-	  <td>The Bank Job, 26, 27</td>
+	  <td>32, 33 (the bank job)</td>
 	</tr>
 	<tr>
 	  <td>9-10</td>
@@ -132,7 +132,7 @@ Classes are Fridays 9am-2pm
 		<p>Enumeration types</p>
 	  </td>
 	  <td>64, 87-90, 147-153, 162-163, 315-316</td>
-	  <td>28, 29, 30</td>
+	  <td>34, 35, 36</td>
 	</tr>
 	<tr>
 	  <td>11</td>

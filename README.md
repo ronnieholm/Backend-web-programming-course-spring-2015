@@ -35,7 +35,10 @@ Classes are Fridays 9am-2pm
 		<p>Visual Studio setup</p>
 	  </td>
 	  <td>1-10, 13-24</td>
-	  <td><a href="Source/Exercises/Exercise01">1</a>, 2</td>
+	  <td>
+		<a href="Source/Exercises/Exercise01">1</a>, 
+		<a href="Source/Exercises/Exercise02">2</a>
+	  </td>
 	</tr>
 	<tr>
 	  <td>2</td>

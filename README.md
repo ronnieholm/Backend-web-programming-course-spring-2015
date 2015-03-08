@@ -113,6 +113,7 @@ Classes are Fridays 9am-2pm
 	  <td>6</td>
 	  <td>Mar 13</td>
 	  <td>
+		<p>Review presentations</p>
 		<p>Repetition statements</p>
 		<p>while loops</p>
 		<p>for loops</p>

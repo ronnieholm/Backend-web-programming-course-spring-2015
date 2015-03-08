@@ -183,6 +183,8 @@ Classes are Fridays 9am-2pm
 	  <td>Apr 17</td>
 	  <td>	
 		<p>ASP.NET MVC</p>
+		<p>Protocols</p>
+		<p>Design patterns</p>
 		<p>Model</p>
 		<p>View</p>
 		<p>Controller</p>	
@@ -211,6 +213,7 @@ Classes are Fridays 9am-2pm
 	  <td>13</td>
 	  <td>May 22</td>
 	  <td>		
+		<p>Project work and review</p>
 	  </td>
 	  <td></td>
 	  <td></td>
@@ -219,7 +222,7 @@ Classes are Fridays 9am-2pm
 	  <td>14</td>
 	  <td>May 29</td>
 	  <td>
-		<p>Review</p>
+		<p>Project work and review</p>
 	  </td>
 	  <td></td>
 	  <td>&nbsp;</td>
@@ -228,7 +231,7 @@ Classes are Fridays 9am-2pm
 	  <td>15</td>
 	  <td>June 5</td>
 	  <td>
-		<p>Review</p>
+		<p>Project work and review</p>
 	  </td>
 	  <td></td>
 	  <td>&nbsp;</td>

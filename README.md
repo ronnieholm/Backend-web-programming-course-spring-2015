@@ -10,7 +10,7 @@ RO-115/RO-E309
 - <a href="http://www.amazon.com/Beginning-Visual-C-2012-Programming/dp/1118314417/ref=sr_1_1?s=books&ie=UTF8&qid=1399059557&sr=1-1&keywords=9781118314418">C#: Karli Watson et al. "Beginning Visual C# 2012 Programming", ISBN 978-1118314418</a>
 - <a href="http://channel9.msdn.com/Series/C-Sharp-Fundamentals-Development-for-Absolute-Beginners">The C# Fundamentals Development for Absolute Beginners</a>
 - <a href="https://github.com/ronnieholm/Programming-technology-course-spring-2013/blob/master/Lecture%207%20-%20Patterns%20in%20software%20development.pptx?raw=true">Patterns in software development</a>
-- <a href="Notes.md">Lecture notes from earlier course</a>
+- <a href="Notes.md">Lecture notes from previous course</a>
 
 ## Schedule
 
@@ -35,7 +35,7 @@ Classes are Fridays 9am-2pm
 		<p>Visual Studio setup</p>
 	  </td>
 	  <td>1-10, 13-24</td>
-	  <td>1, 2</td>
+	  <td><a href="tree/master/Source/Exercises/Exercise01">1</a>, 2</td>
 	</tr>
 	<tr>
 	  <td>2</td>
@@ -118,7 +118,7 @@ Classes are Fridays 9am-2pm
 		<p>Interfaces</p>
 	  </td>
 	  <td>163-169, 177-182</td>
-	  <td>32, 33 (the bank job)</td>
+	  <td>32, 33</td>
 	</tr>
 	<tr>
 	  <td>9</td>

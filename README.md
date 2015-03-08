@@ -121,7 +121,7 @@ Classes are Fridays 9am-2pm
 	  <td>32, 33 (the bank job)</td>
 	</tr>
 	<tr>
-	  <td>9-10</td>
+	  <td>9</td>
 	  <td>Mar Apr 10, Apr 17</td>
 	  <td>
 		<p>Error handling bits and pieces</p>
@@ -133,6 +133,14 @@ Classes are Fridays 9am-2pm
 	  </td>
 	  <td>64, 87-90, 147-153, 162-163, 315-316</td>
 	  <td>34, 35, 36</td>
+	</tr>
+	<tr>
+	  <td>10</td>
+	  <td>Apr 24</td>
+	  <td>		
+	  </td>
+	  <td></td>
+	  <td></td>
 	</tr>
 	<tr>
 	  <td>11</td>

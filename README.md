@@ -51,7 +51,14 @@ Classes are Fridays 9am-2pm
 		<p>Logic</p>
 	  </td>
 	  <td>29-45, 49-57, 79-82, 84-86, 98-102</td>
-	  <td>3, 4, 5, 6, 7, 8</td>
+	  <td>
+  		<a href="Source/Exercises/Exercise03">3</a>, 
+	    <a href="Source/Exercises/Exercise04">4</a>, 
+	    <a href="Source/Exercises/Exercise05">5</a>, 
+	    <a href="Source/Exercises/Exercise06">6</a>, 
+	    <a href="Source/Exercises/Exercise07">7</a>, 
+	    <a href="Source/Exercises/Exercise08">8</a>
+	  </td>
 	</tr>
 	<tr>
 	  <td>3</td>
@@ -63,7 +70,9 @@ Classes are Fridays 9am-2pm
 		<p>Debugging</p>
 	  </td>
 	  <td>105-123, 131-146, 157-163, 203-208</td>
-	  <td>9, 10, 11, 12</td>
+	  <td>
+		9, 10, 11, 12
+	  </td>
 	</tr>
 	<tr>
 	  <td>4</td>
@@ -73,7 +82,9 @@ Classes are Fridays 9am-2pm
 		<p>Method definitions</p>
 	  </td>
 	  <td>Same as for #3</td>
-	  <td>13, 14, 15, 16</td>
+	  <td>
+		13, 14, 15, 16
+	  </td>
 	</tr>
     <tr>
 	  <td>5</td>
@@ -85,7 +96,9 @@ Classes are Fridays 9am-2pm
 		<p>switch statements</p>
 	  </td>
 	  <td>59-65</td>
-	  <td>17, 18, 19, 20</td>
+	  <td>
+		17, 18, 19, 20
+	  </td>
 	</tr>
 	<tr>
 	  <td>6</td>
@@ -96,8 +109,9 @@ Classes are Fridays 9am-2pm
 		<p>for loops</p>
 	  </td>
 	  <td>65-75</td>
-	  <td>21, 22, 23, 24, 25, 26, 27
-    </td>
+	  <td>
+		21, 22, 23, 24, 25, 26, 27
+	  </td>
 	</tr>
 	<tr>
 	  <td>7</td>
@@ -109,7 +123,9 @@ Classes are Fridays 9am-2pm
 		<p>Dictionary</p>
 	  </td>
 	  <td>92-98, 287-288, 294-295</td>
-	  <td>28, 29, 30, 31</td>
+	  <td>
+	    28, 29, 30, 31
+	  </td>
 	</tr>
 	<tr>
 	  <td>8</td>
@@ -121,7 +137,9 @@ Classes are Fridays 9am-2pm
 		<p>Interfaces</p>
 	  </td>
 	  <td>163-169, 177-182</td>
-	  <td>32, 33</td>
+	  <td>
+	    32, 33
+	  </td>
 	</tr>
 	<tr>
 	  <td>9</td>
@@ -135,7 +153,9 @@ Classes are Fridays 9am-2pm
 		<p>Enumeration types</p>
 	  </td>
 	  <td>64, 87-90, 147-153, 162-163, 315-316</td>
-	  <td>34, 35, 36</td>
+	  <td>
+	    34, 35, 36
+	  </td>
 	</tr>
 	<tr>
 	  <td>10</td>

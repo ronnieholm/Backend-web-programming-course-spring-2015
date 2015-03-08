@@ -210,17 +210,6 @@ Classes are Fridays 9am-2pm
 	  <td></td>
 	  <td></td>
 	</tr>
-<!--
-	<tr>
-	  <td>-</td>
-	  <td>May 26</td>
-	  <td>
-		<p>Hand-in</p>
-	  </td>
-	  <td></td>
-	  <td>&nbsp;</td>
-	</tr>
--->
 	<tr>
 	  <td>14</td>
 	  <td>May 29</td>

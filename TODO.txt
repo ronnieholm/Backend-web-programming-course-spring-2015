@@ -3,7 +3,6 @@ TODO
 
   - Add CPR modulus 11 validation exercise for loops
   - Add hi/lo game for loops and if/else statements
-  - Add validate password exercise for if/else statements
   - Add Conway's game of life
   - Add number system/RGB/link shortener convertion exercise
   - Add Shunting Yard algorithm exercise

@@ -118,6 +118,7 @@
     <Compile Include="Exercise36\PartnerDesignerSolution.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TheBankJob\Solution.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Exercise01\README.md" />
@@ -156,6 +157,7 @@
     <None Include="Exercise34\README.md" />
     <None Include="Exercise35\README.md" />
     <None Include="Exercise36\README.md" />
+    <None Include="TheBankJob\README.md" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

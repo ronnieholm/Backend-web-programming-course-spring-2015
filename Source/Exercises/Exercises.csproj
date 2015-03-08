@@ -112,6 +112,10 @@
     <Compile Include="Exercise33\EmployeeSolution.cs" />
     <Compile Include="Exercise34\Exception.cs" />
     <Compile Include="Exercise34\ExceptionSolution.cs" />
+    <Compile Include="Exercise35\StaticExamples.cs" />
+    <Compile Include="Exercise35\StaticExamplesSolution.cs" />
+    <Compile Include="Exercise36\PartnerDesigner.cs" />
+    <Compile Include="Exercise36\PartnerDesignerSolution.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -150,11 +154,10 @@
     <None Include="Exercise32\README.md" />
     <None Include="Exercise33\README.md" />
     <None Include="Exercise34\README.md" />
+    <None Include="Exercise35\README.md" />
+    <None Include="Exercise36\README.md" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Exercise35\" />
-    <Folder Include="Exercise36\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

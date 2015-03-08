@@ -237,7 +237,7 @@ Classes are Fridays 9am-2pm
 	  <td></td>
 	  <td>&nbsp;</td>
 	</tr>
-	<tr>
+	<tr> 
 	  <td>-</td>
 	  <td>Jun 16</td>
 	  <td>

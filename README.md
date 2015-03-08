@@ -193,7 +193,8 @@ Classes are Fridays 9am-2pm
 	<tr>
 	  <td>11</td>
 	  <td>Apr 24</td>
-	  <td>		
+	  <td>
+		<p>Entity Framework</p>		
 	  </td>
 	  <td></td>
 	  <td></td>

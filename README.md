@@ -181,7 +181,11 @@ Classes are Fridays 9am-2pm
 	<tr>
 	  <td>10</td>
 	  <td>Apr 17</td>
-	  <td>		
+	  <td>	
+		<p>ASP.NET MVC</p>
+		<p>Model</p>
+		<p>View</p>
+		<p>Controller</p>	
 	  </td>
 	  <td></td>
 	  <td></td>

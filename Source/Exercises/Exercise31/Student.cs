@@ -12,7 +12,7 @@ namespace Exercises.Exercise31
         private string _name;
         private Dictionary<string, int> _testScores;
 
-        // created student with fixed id and name
+        // creates student with fixed id and name
         public Student(int id, String name)
         {
             _name = name;
@@ -36,7 +36,7 @@ namespace Exercises.Exercise31
             _testScores.Add(course, score);
         }
 
-        // find average test scores for student. If no scores are present
+        // finds average test scores for student. If no scores are present
         // an average of 0 is returned.
         public int GetScoreAverage()
         {

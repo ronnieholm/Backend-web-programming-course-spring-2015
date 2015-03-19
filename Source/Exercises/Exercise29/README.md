@@ -1,6 +1,6 @@
 ﻿# Exercise 29: Book collection
 
-This exercise illustrates the concept of a collection, which is
+This exercise illustrates the concept of a collection which is
 a class that can store and use data of a certain type without 
 revealing its internal representation of data to the user of 
 the collection.

@@ -1419,7 +1419,7 @@ An array has a fixed size but it can be changed by using the Resize
 method defined on the Array class:
 
     // resize array to 20 elements
-    Array.resize(ref numberArray, 20);
+    Array.Resize(ref numberArray, 20);
 
 Resizing is somewhat expensive so we should avoid it. There're other 
 and better ways to deal with the situation in which the number of 
@@ -1433,7 +1433,7 @@ just as if it's an ordinary variable.
 Each specific element is specified by its position in the array. We 
 usually call this the index.
 
-    // add 2 to the fifth element in the array
+    // add two to the fifth element in the array
     numberArray[4] = numberArray[4] + 2;
 
 Catch: the first element in the array has index 0 (zero). In an array 
@@ -1447,7 +1447,7 @@ We can initialize an array directly if the values for
 all elements are fixed:
 
     // initializes the array to five elements
-    int[] numberArray = {12, 42, -9, 34, 10};
+    int[] numberArray = { 12, 42, -9, 34, 10 };
 
 We often use arrays together with some type of repetition statement:
 
@@ -1462,8 +1462,8 @@ This prints out values of each element in the array, starting
 from the element with index 0 up to the element with index 9 (not 10).
 
 We can ask an array how long it is, giving us more robust code 
-(in the sense that if we change the length of the array, we don't 
-have to remember to change the value in the condition as well):
+in the sense that if we change the length of the array, we don't 
+have to remember to change the value in the condition as well:
 
     for (int index = 0; index < numberArray.Length; index++) {
         Console.WriteLine(numberArray[index]);
@@ -1543,7 +1543,7 @@ We get hold of an element in the same way as for arrays: we use the
 
     numberList[2]; // the element with index 2
 
-The method Contains can tell us if a specific element is contained 
+The Contains method tells us if a specific element is contained 
 in the list:
 
     // is an element with value 77 in the list?
@@ -1553,9 +1553,6 @@ There're many useful methods in the List class. See documentation or read
 in pop-up list.
 
 ## Dictionary
-
-The List class is a significant improvement over old-school arrays, 
-but some tasks are still somewhat difficult.
 
 We often have classes where one instance field serves as a 
 key to the data (i.e., uniquely identifies it). CPR number for a person, 

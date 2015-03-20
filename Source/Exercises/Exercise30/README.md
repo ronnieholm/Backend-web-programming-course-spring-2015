@@ -17,6 +17,6 @@ by its license plate).
      methods (AddCarToPool, RemoveCarFromPool, LookupCar) which require
 	 implementation. Your job is to complete these methods according to 
 	 the specification in the code file.
-  2. In the file InsertCodeHere.cs, some code that tests the CarPool 
+  2. In the file CarPool.cs, some code that tests the CarPool 
      class has been inserted. Run the program and check that your 
 	 CarPool class behaves as expected.

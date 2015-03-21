@@ -1,5 +1,4 @@
-PLAN
-====
+# Lecture 7 notes
 
 - 0910-1100 Data structures                
   - Simple variables vs collections of elements

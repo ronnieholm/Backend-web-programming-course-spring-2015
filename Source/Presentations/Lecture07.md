@@ -48,8 +48,8 @@
 
   - A large number of other specialized collections exist
                  
-  - 1100-1430 Exercises 28, 29, 30, 31
-              Extra: midpoint displacement for generating clounds and hills in games
+- 1100-1430 Exercises 28, 29, 30, 31
+            Extra: midpoint displacement for generating clounds and hills in games
 
 
 

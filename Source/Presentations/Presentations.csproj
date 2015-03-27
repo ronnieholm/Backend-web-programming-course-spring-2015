@@ -59,6 +59,7 @@
   <ItemGroup>
     <Content Include="inheritance-mental-picture.png" />
     <Content Include="Lecture07.md" />
+    <None Include="Lecture08.md" />
     <Content Include="Memory model.xlsx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

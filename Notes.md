@@ -1695,7 +1695,7 @@ of all classes called Object. This base class contains seven methods:
   - ReferenceEquals
   - ToString
 
-Some of these methods need to be overrided if we want a certain 
+Some of these methods need to be overrided if we want a 
 class to have certain abilities, like being able to store objects 
 of that type in a Dictionary-based container (GetHashCode), to 
 define equality in a non-trivial way (Equals), etc.
@@ -1745,7 +1745,7 @@ method doesn't need to know that.
 
 Calling Draw on s may exhibit different behavior depending 
 on the actual type of s. This is known as polymorphic behavior 
-(Polymorphic: many forms).
+(polymorphic: many forms).
 
 A further advantage is extensibility. If we need more shapes we 
 can just add them to the shape package as long as they inherit 
@@ -1763,7 +1763,7 @@ create a Shape object in itself? Not really. Shape is just
 a common denominator for shape-oriented classes but a Shape
 object in itself isn't very useful.
 
-By turning the Draw method into an abstract method, we gain
+By turning the Draw method into an abstract method we gain
 a couple of advantages:
 
   - We don't have to provide a (meaningless) implementation in 

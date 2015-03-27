@@ -1,4 +1,4 @@
-﻿# Exercise 31: Company info I
+﻿# Exercise 32: Company info I
 
 This exercise comes with just the Employee class. It's supposed to serve as 
 base class for a number of derived classes.

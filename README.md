@@ -155,7 +155,7 @@ Classes are Fridays 9am-2pm
 		<p>Polymorphism</p>
 		<p>Interfaces</p>
 	  </td>
-	  <td>163-169, 177-182, <a href="https://github.com/ronnieholm/Programming-technology-course-spring-2013/blob/master/Lecture%204%20-%20Understanding%20encapsulation.pptx?raw=true">Slides 6-12</a></td>
+	  <td>163-169, 177-182, <a href="https://github.com/ronnieholm/Programming-technology-course-spring-2013/blob/master/Lecture%204%20-%20Understanding%20encapsulation.pptx?raw=true">Understanding encapsulation, slides 6-12</a></td>
 	  <td>
 		<a href="Source/Exercises/Exercise32">32</a>, 
 		<a href="Source/Exercises/Exercise33">33</a>

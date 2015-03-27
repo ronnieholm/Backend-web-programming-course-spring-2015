@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="inheritance-mental-picture.png" />
     <Content Include="Lecture07.md" />
     <Content Include="Memory model.xlsx" />
     <None Include="Web.Debug.config">

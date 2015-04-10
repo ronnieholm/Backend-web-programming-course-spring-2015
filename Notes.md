@@ -1815,14 +1815,14 @@ IComparable.
 
 # Defensive programming
 
-In real-life scenarios, we have to prepare for unexpected data values 
+In real-life scenarios we have to prepare for unexpected data values 
 and exceptional situations in general.
 
 What can go wrong? Some examples:
 
-  - Value is correct type-wise but is outside the range of meaningful 
-    values (example: A test score is supposed to be between 0 and 100 
-	but an int can represent many other values, such as -27, 22987).
+  - Value is correct type but is outside the range of meaningful 
+    values (example: test score is supposed to be between 0 and 100 
+	but an int can represent other values such as -27 or 22987).
   - Value is used for indexing into an array but only values from 0 (zero) up 
     to (length - 1) are meaningful. Other values will produce an error.
   - A string doesn't follow a given syntax (e.g., for a license plate).
@@ -1833,11 +1833,11 @@ What can go wrong? Some examples:
   - A database is unavailable for some reason.
   - An Internet connection is unavailable for some reason.
 
-The action of the program in the above cases is situation-dependent. 
+The action of the program in the above cases is dependent on the situation. 
 Program may halt, show an error message, silently handle the error, 
 fall back to a default value, etc.
 
-In any case, we should be prepared to handle all possible situations 
+In any case, we should be prepared to handle most situations 
 in a graceful manner.
 
 In practice we then have to validate all critical variables before 
@@ -1849,7 +1849,7 @@ When should we validate?
     in a critical situation.
   - Late: just before the variable is actually used.
 
-When to validate is also situational-dependent. Argument against early 
+When to validate also depends on the situation. Arguments against early 
 validation could be that value might not be used at all.
 
 We detect an error during program execution. Now what? Management 
@@ -1876,7 +1876,7 @@ is through exceptions.
 
 ## Exceptions - throw
 
-An exception is in itself just another class.
+An exception is in itself just another class. 
 
 An exception object is created just as any other object: using new 
 and the proper class.
@@ -1886,7 +1886,7 @@ The interesting part: we can throw and catch exceptions.
 If an exceptional situation (an error) occurs, the code can 
 throw an exception:
 
-    public void deposit(int amount) {
+    public void Deposit(int amount) {
         if (amount < 0) {
             NegativeAmountException ex =
                 new NegativeAmountException("...");
@@ -1909,7 +1909,7 @@ The part of the code that wishes to capture the error must catch
 the exception.
 
 Code that might throw an exception should be executed within a 
-try-catch block:
+try/catch block:
 
     BankAccount myAcc = new BankAccount();
     try {
@@ -1921,7 +1921,7 @@ try-catch block:
 
 Caller is aware that an exception may occur and decides how to handle it.
 
-General principle: Throw early, catch late.
+General principle: throw early, catch late.
 
   - Throw as soon as an error is detected
   - Only catch if you really know how to handle the error (don't be tempted
@@ -1929,21 +1929,21 @@ General principle: Throw early, catch late.
 
 ## Exceptions - catch
 
-What code is executed after the catch-part has been executed?
+What code is executed after the catch part has been executed?
 
 Control doesn't return to the code that threw the exception. It returns 
-to the first statement after the catch-block. More precisely after 
-the last catch-block since you can have several catch-blocks handling 
+to the first statement after the catch block. More precisely after 
+the last catch block since you can have several catch blocks handling 
 different exceptions.
 
 This may cause problems if the code that threw the exception has 
 claimed some system resources, for instance through opening a file.
 
-How can we make sure that a file for instance is closed, regardless of 
-whether or not an exception has occurred?
+How can we make sure that a system resource, such as a file, is closed, 
+regardless of whether or not an exception has occurred?
 
 In C# a finally clause is used for this purpose. Code placed in a 
-finally-block is guaranteed to be executed, exception or not.
+finally block is guaranteed to be executed, exception or not.
 
     try {
         theFile.open(fileName);
@@ -1954,7 +1954,7 @@ finally-block is guaranteed to be executed, exception or not.
         theFile.close();
     }
 
-Code for releasing resources should be in a finally-block.
+Code for releasing resources should thus be in a finally block.
 
 ## Exceptions - details
 
@@ -1969,9 +1969,9 @@ C# contains a class hierarchy of exception classes. The base class is
 called Exception.
 
 Use the built-in exception classes if they're appropriate. Otherwise 
-create your own exception classes. Your own exception classes must
-inherit from an existing exception class since you can only throw an 
-object which inherit from Exception.
+create your own exception classes which must inherit from an existing 
+exception class since you can only throw an object which inherit 
+from Exception.
 
 An exception object has a number of properties which provide more 
 information about the nature of the exception. For instance, the 
@@ -1981,8 +1981,8 @@ Should I always throw exceptions in case of errors? No, not if
 you are absolutely sure how the error should be handled.
 
 Remember to consider architectural issues. It may be unwise to 
-present an error to a user in a GUI-specific manner inside a 
-business-logic class.
+present an error to a user in a GUI specific manner inside a 
+business logic class.
 
 # Constants
 

@@ -56,8 +56,8 @@ namespace Exercises.Exercise34
 
         public BankAccount(double interestRate)
         {
-            this._interestRate = interestRate;
-            this._balance = 0.0;
+            _interestRate = interestRate;
+            _balance = 0.0;
         }
 
         public void Deposit(double amount)

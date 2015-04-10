@@ -171,7 +171,7 @@ Classes are Fridays 9am-2pm
 		<p>Static classes and methods</p>
 		<p>Enumeration types</p>
 	  </td>
-	  <td>64, 87-90, 147-153, 162-163, 315-316</td>
+	  <td>64, 87-90, 147-153, 162-163, 315-316 <a href="https://github.com/ronnieholm/Programming-technology-course-spring-2013/blob/master/Lecture%205.1%20-%20Understanding%20structured%20exception%20handling.pptx?raw=true">Understanding structured exception handling</a></td>
 	  <td>
 		<a href="Source/Exercises/Exercise34">34</a>, 
 		<a href="Source/Exercises/Exercise35">35</a>, 

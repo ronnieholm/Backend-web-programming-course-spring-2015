@@ -1,5 +1,4 @@
-Backend-web-programming-course-spring-2015
-==========================================
+# Backend-web-programming-course-spring-2015
 
 ## Location
 

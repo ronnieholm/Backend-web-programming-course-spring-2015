@@ -182,14 +182,14 @@ Classes are Fridays 9am-2pm
 	  <td>10</td>
 	  <td>Apr 17</td>
 	  <td>	
-		<p>ASP.NET MVC</p>
-		<p>Protocols</p>
-		<p>Design patterns</p>
-		<p>Model</p>
-		<p>View</p>
-		<p>Controller</p>	
+        <p>Patterns in software</p>
+	    <p>HTTP protocol</p>
+		<p>ASP.NET Web API</p>
 	  </td>
-	  <td></td>
+	  <td>
+		<a href="https://github.com/ronnieholm/Programming-technology-course-spring-2013/blob/master/Lecture%207%20-%20Patterns%20in%20software%20development.pptx?raw=true">Patterns in software development</a>
+		<a href="http://www.asp.net/web-api">Official ASP.NET Web API page (Pluralsight videos on the right)</a>
+	  </td>
 	  <td></td>
 	</tr>
 	<tr>

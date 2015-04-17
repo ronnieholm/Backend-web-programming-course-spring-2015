@@ -38,7 +38,6 @@ namespace AspNetWebApiDemo.Controllers
             // ctor called with every call to controller method.
             // This usually means the controller is stateless and
             // would get its data from a database with each call.
-            Console.WriteLine("");
         }
 
         // GET: api/Person

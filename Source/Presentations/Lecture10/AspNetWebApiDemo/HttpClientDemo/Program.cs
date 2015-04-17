@@ -118,7 +118,7 @@ namespace HttpClientDemo
             c.BaseAddress = new Uri("http://localhost.fiddler:50064/");
 
             // for use during normal operation without Fiddler running
-            //c.BaseAddress = new Uri("http://localhost.fiddler:50064/");
+            //c.BaseAddress = new Uri("http://localhost:50064/");
             c.DefaultRequestHeaders.Accept.Clear();
             c.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 

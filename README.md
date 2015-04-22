@@ -186,9 +186,9 @@ Classes are Fridays 9am-2pm
 		<p>ASP.NET Web API</p>
 	  </td>
 	  <td>
-		<a href="http://www.asp.net/web-api">Official ASP.NET Web API page (watch Pluralsight videos on the right)</a>
-		<a href="http://en.wikipedia.org/wiki/Internet_media_type">Media types</a>
-		<a href="http://en.wikipedia.org/wiki/JSON">JSON</a>
+		<a href="http://www.asp.net/web-api">Official ASP.NET Web API page (watch Pluralsight videos on the right)</a>,
+		<a href="http://en.wikipedia.org/wiki/Internet_media_type">Media types</a>,
+		<a href="http://en.wikipedia.org/wiki/JSON">JSON</a>,
 		<a href="http://en.wikipedia.org/wiki/XML">XML</a>
 	  </td>
 	  <td></td>

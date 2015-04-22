@@ -182,13 +182,14 @@ Classes are Fridays 9am-2pm
 	  <td>10</td>
 	  <td>Apr 17</td>
 	  <td>	
-        <p>Patterns in software</p>
 	    <p>HTTP protocol</p>
 		<p>ASP.NET Web API</p>
 	  </td>
 	  <td>
-		<a href="https://github.com/ronnieholm/Programming-technology-course-spring-2013/blob/master/Lecture%207%20-%20Patterns%20in%20software%20development.pptx?raw=true">Patterns in software development</a>,
-		<a href="http://www.asp.net/web-api">Official ASP.NET Web API page (Pluralsight videos on the right)</a>
+		<a href="http://www.asp.net/web-api">Official ASP.NET Web API page (watch Pluralsight videos on the right)</a>
+		<a href="http://en.wikipedia.org/wiki/Internet_media_type">Media types</a>
+		<a href="http://en.wikipedia.org/wiki/JSON">JSON</a>
+		<a href="http://en.wikipedia.org/wiki/XML">XML</a>
 	  </td>
 	  <td></td>
 	</tr>
@@ -196,9 +197,11 @@ Classes are Fridays 9am-2pm
 	  <td>11</td>
 	  <td>Apr 24</td>
 	  <td>
-		<p>Entity Framework</p>		
+        <p>Patterns in software</p>
 	  </td>
-	  <td></td>
+	  <td>
+		<a href="https://github.com/ronnieholm/Programming-technology-course-spring-2013/blob/master/Lecture%207%20-%20Patterns%20in%20software%20development.pptx?raw=true">Patterns in software development</a>
+	  </td>
 	  <td></td>
 	</tr>
 	<tr>

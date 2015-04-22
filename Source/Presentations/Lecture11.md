@@ -9,5 +9,8 @@
   - Design patterns
   - Idioms
 
-
+  - ASP.NET WebAPI MVC implementation
+    - Compare and contract with Wikipedia general description
+	- Model validation using attributes
+	- Seperate view model classes from problem domain model classes
 

@@ -63,6 +63,7 @@
     <Content Include="Memory model.xlsx" />
     <Content Include="Lecture09.md" />
     <Content Include="Lecture10.md" />
+    <Content Include="Lecture11.md" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -1,17 +1,7 @@
 # Lecture 10
 
-- TODO:
-    Add JSON som curriculum
-    HTTP protocol
-    Create jQuery method which calls methods on server
-    Take one of the previous exercises and convert into Web API
-    Model validation
-    Fiddler showing interaction with Console
-
 - 0910-1100
-  - Static language class
-
-  - Design patterns (2013 presentation)
+  - Static language class (example of use of static keyword)
 
   - HTTP protocol
     - Telnet

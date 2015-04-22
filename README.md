@@ -204,7 +204,7 @@ Classes are Fridays 9am-2pm
 	  <td>
 		<a href="https://github.com/ronnieholm/Programming-technology-course-spring-2013/blob/master/Lecture%207%20-%20Patterns%20in%20software%20development.pptx?raw=true">Patterns in software development presentation</a>,
 		<a href="http://en.wikipedia.org/wiki/Singleton_pattern">Singleton pattern</a>,
-		<a hret="http://en.wikipedia.org/wiki/Template_method_pattern">Template pattern</a> (<a href="http://bugfree.dk/blog/2010/01/11/sharepoint-list-definition-using-the-template-pattern">example</a>)
+		<a hret="http://en.wikipedia.org/wiki/Template_method_pattern">Template pattern</a>
 	  </td>
 	  <td></td>
 	</tr>

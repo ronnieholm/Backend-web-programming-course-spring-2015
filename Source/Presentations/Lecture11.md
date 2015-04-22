@@ -2,9 +2,12 @@
 
 - TODO:
     Model validation (data mapper pattern)
+	Fix-up post(?) method in webapi sample
 
 - 0910-1100
   - Architectural patterns
   - Design patterns
   - Idioms
+
+
 

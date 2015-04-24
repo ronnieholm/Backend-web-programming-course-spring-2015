@@ -9,6 +9,7 @@ using Newtonsoft.Json;
 
 // Key points:
 // - Install Newtonsoft.Json from NuGet
+// - Add reference to System.Net.Http
 // - HttpClient part of Pluralsight course has outdated code (working code below)
 
 namespace HttpClientDemo

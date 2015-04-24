@@ -115,17 +115,17 @@ namespace HttpClientDemo
 
             // used for all requests with this HttpClient instance
             // for Fiddler to intercept traffic from console app running on localhost
-            c.BaseAddress = new Uri("http://localhost.fiddler:50064/");
+            //c.BaseAddress = new Uri("http://localhost.fiddler:50064/");
 
             // for use during normal operation without Fiddler running
-            //c.BaseAddress = new Uri("http://localhost:50064/");
+            c.BaseAddress = new Uri("http://localhost:50064/");
             c.DefaultRequestHeaders.Accept.Clear();
             c.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
             Uri newPersonUrl = PostExample(c);
             Person p = GetSpecificExample(c, newPersonUrl);
 
-            p.Name = "Tine";
+            p.Name = "Tinne";
             PutExample(c, newPersonUrl, p);
 
             GetAllExample(c);

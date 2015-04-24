@@ -41,10 +41,15 @@ namespace AspNetWebApiDemo.Controllers
         }
 
         // GET: api/Person
-        public IEnumerable<PersonRequest> Get()
+        public IEnumerable<PersonResponse> Get()
         {
             //throw new ArgumentException("Test exception behavior");
-            return _people;
+            List<PersonResponse> r = new List<PersonResponse>();
+            foreach (PersonRequest p in _people)
+            {
+                r.Add(new PersonResponse { Name = p.Name, Age = p.Age });
+            }
+            return r;
         }
 
         // implementation without error handling -- invalid index results in 500: internal server error
@@ -57,10 +62,12 @@ namespace AspNetWebApiDemo.Controllers
 
         // return HttpResponseMessage gives us more control over what gets returned from service
         public HttpResponseMessage Get(int id)
-        {        
+        {           
             if (_people.Count > id)
             {
-                return Request.CreateResponse<PersonRequest>(HttpStatusCode.OK, _people[id]);
+                PersonRequest p = _people[id];
+                PersonResponse response = new PersonResponse { Name = p.Name, Age = p.Age };
+                return Request.CreateResponse<PersonResponse>(HttpStatusCode.OK, response);
             }
             else
             {

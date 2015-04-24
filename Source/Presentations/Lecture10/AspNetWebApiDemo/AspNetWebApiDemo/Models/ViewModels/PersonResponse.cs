@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AspNetWebApiDemo.Models.ViewModels
 {
-    class PersonResponse
+    public class PersonResponse
     {
         public string Name { get; set; }
         public int Age { get; set; }

@@ -6,7 +6,7 @@ using System.Web;
 
 namespace AspNetWebApiDemo.Models.ViewModels
 {
-    public class PersonRequest
+    class PersonRequest
     {
         [Required]
         public string Name { get; set; }

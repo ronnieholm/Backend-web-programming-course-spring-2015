@@ -106,7 +106,7 @@ namespace AspNetWebApiDemo.Controllers
             }
             else
             {
-                return null;
+                return Request.CreateResponse(HttpStatusCode.BadRequest, "Person id not found");
             }
         }
 

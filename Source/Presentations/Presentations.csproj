@@ -60,6 +60,7 @@
     <Content Include="inheritance-mental-picture.png" />
     <Content Include="Lecture07.md" />
     <None Include="Lecture08.md" />
+    <None Include="Lecture12.md" />
     <Content Include="Memory model.xlsx" />
     <Content Include="Lecture09.md" />
     <Content Include="Lecture10.md" />

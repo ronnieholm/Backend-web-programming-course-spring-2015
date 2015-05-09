@@ -212,10 +212,18 @@ Classes are Fridays 9am-2pm
 	  <td>12</td>
 	  <td>May 8</td>
 	  <td>		
-		<p>Project work and review</p>
+		<p>Establishing good development habits</p>
+		<p>Working with xUnit testing framework</p>
 	  </td>
-	  <td></td>
-	  <td></td>
+	  <td>
+		<a href="https://vimeo.com/97329157">Seven Ineffective Coding Habits of Many Programmers</a>
+		<a href="http://xunit.github.io/">xUnit documentation</a>
+	  </td>
+	  <td>
+		<p>Expand on <a href="https://github.com/ronnieholm/Backend-web-programming-course-spring-2015/tree/master/Source/Presentations/Lecture12">calculator example</a>, adding tests for '-', '*', '/' operators</p>
+		<p>Investigate .NET DateTime type</p>
+		<p>Setup Github account in preparation for exam project</p>
+	  </td>
 	</tr>
 	<tr>
 	  <td>13</td>

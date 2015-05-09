@@ -35,8 +35,8 @@ requirements:
     format. Specifically, the backend must be an ASP.NET WebAPI web
     service.
 
-  - The backend can only make use of classes provided by Microsoft as
-    part of the .NET base class library and ASP.NET. No third-party
+  - The backend must only use classes provided by Microsoft as
+    part of the .NET framework or ASP.NET. No third-party
 	date expansion code is allowed. It may infridge on another party's
 	copyright or in the case of open source force CalendarWare,
 	Inc. to open source it's precious source code as well.
@@ -82,12 +82,6 @@ are busy people so assume only one read it -- and include a demo of
 the web service in action. Following your presentation, you and the
 potential investors discuss your backend solution in particular and
 backend topics in general.
-
-## Meta
-
-In the spirit of today's innovation hype.
-
-Don't use third-party date manipulation library. Code it yourself.
 
 ## Requirements
 

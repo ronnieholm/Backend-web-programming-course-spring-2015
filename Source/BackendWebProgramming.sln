@@ -14,6 +14,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Markdown", "Markdown", "{40
 		..\TODO.txt = ..\TODO.txt
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CalendarWareRecurrenceExpander", "CalendarWareRecurrenceExpander", "{8C94E501-AA2D-4555-89BC-2FE1299F2166}"
+	ProjectSection(SolutionItems) = preProject
+		..\CalendarWareRecurrenceExpander\Empty-appointment.png = ..\CalendarWareRecurrenceExpander\Empty-appointment.png
+		..\CalendarWareRecurrenceExpander\README.md = ..\CalendarWareRecurrenceExpander\README.md
+		..\CalendarWareRecurrenceExpander\Repeating-appointment-daily.png = ..\CalendarWareRecurrenceExpander\Repeating-appointment-daily.png
+		..\CalendarWareRecurrenceExpander\Repeating-appointment-monthly.png = ..\CalendarWareRecurrenceExpander\Repeating-appointment-monthly.png
+		..\CalendarWareRecurrenceExpander\Repeating-appointment-weekly.png = ..\CalendarWareRecurrenceExpander\Repeating-appointment-weekly.png
+		..\CalendarWareRecurrenceExpander\Repeating-appointment-yearly.png = ..\CalendarWareRecurrenceExpander\Repeating-appointment-yearly.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

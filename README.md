@@ -193,7 +193,7 @@ Classes are Fridays 9am-2pm
 		<a href="http://www.telerik.com/videos/fiddler/getting-started-with-fiddler-web-debugging-proxy">Fiddler</a>
 	  </td>
 	  <td>
-		<p>Create your own WebAPI service for an example of your choosing</a>
+		<p>Create your WebAPI service for an example of your choosing</a>
 	  </td>
 	</tr>
 	<tr>
@@ -208,7 +208,9 @@ Classes are Fridays 9am-2pm
 		<a href="http://en.wikipedia.org/wiki/Singleton_pattern">Singleton pattern</a>,
 		<a href="http://en.wikipedia.org/wiki/Template_method_pattern">Template pattern</a>  (<a href="http://bugfree.dk/blog/2010/01/11/sharepoint-list-definition-using-the-template-pattern">example</a>)
 	  </td>
-	  <td></td>
+	  <td>
+		<p>Wrap up your WebAPI service from last time and missing exercises</p>
+	  </td>
 	</tr>
 	<tr>
 	  <td>12</td>

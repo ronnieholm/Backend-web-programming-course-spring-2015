@@ -150,7 +150,7 @@ The "day" dropdown contains
   - weekend day
   - Sunday
   - Monday
-  - Turesday
+  - Tuesday
   - Wednesday
   - Thursday
   - Friday
@@ -162,13 +162,12 @@ Monthly, every day 5 of every 3 months: 5/5/2015, 8/5/2015, 11/5/2015, 2/5/2016,
 Monthly, third weekend day of 1 month: 5/9/2015, 6/13/2015, 7/11/2015, 8/8/2015, 9/12/2015
 Monthly, last Friday of every 3 months: 5/29/2015, 8/28/2015, 11/27/2015, 2/26/2016, 5/27/2016
 
-### Yearly recurring appoinement
+### Yearly recurring appointment
 
 ![Repeating appointment yearly](Repeating-appointment-yearly.png)
 
-The first dropdown contains same options as for Monthly
-The day dropdown contains same options as for Monthly
-The January dropdown contains the 12 months
+As for the dropdowns, "first" and "day" contain the same options as listed under Monthly. The
+"January" dropdown contains all 12 months.
 
 Examples:
 

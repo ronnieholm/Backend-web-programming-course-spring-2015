@@ -1,4 +1,4 @@
-# CalendarWare recurrence expander backend
+# CalendarWare recurrence expander
 
 You're the co-founder and backend developer at CalendarWare, Inc., a
 Roskilde-based startup specializing in next generation calendar

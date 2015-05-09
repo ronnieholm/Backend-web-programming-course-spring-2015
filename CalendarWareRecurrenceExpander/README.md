@@ -1,4 +1,4 @@
-# CalendarWare recurrence expander backend solution
+# CalendarWare recurrence expander backend
 
 You're the co-founder and backend developer at CalendarWare, Inc., a
 Roskilde-based startup specializing in next generation calendar
@@ -37,9 +37,9 @@ requirements:
 
   - The backend must only use classes provided by Microsoft as
     part of the .NET framework or ASP.NET. No third-party
-	date expansion code is allowed. It may infridge on another party's
+	date expansion code is allowed. It may infringe on another party's
 	copyright or in the case of open source force CalendarWare,
-	Inc. to open source it's precious source code as well.
+	Inc. to open source its precious code as well.
 
   - Focus on making the code as human-readable as possible through
     good naming of classes, methods, variables, and so forth. The code

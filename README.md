@@ -237,7 +237,7 @@ Classes are Fridays 9am-2pm
 	</tr>
 	<tr>
 	  <td>15</td>
-	  <td>June 5</td>
+	  <td>Jun 5</td>
 	  <td>
 		<p>Project work and review</p>
 	  </td>

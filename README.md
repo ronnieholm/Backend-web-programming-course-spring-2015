@@ -192,7 +192,9 @@ Classes are Fridays 9am-2pm
 		<a href="http://en.wikipedia.org/wiki/XML">XML</a>,
 		<a href="http://www.telerik.com/videos/fiddler/getting-started-with-fiddler-web-debugging-proxy">Fiddler</a>
 	  </td>
-	  <td></td>
+	  <td>
+		<p>Create your own WebAPI service for an example of your choosing</a>
+	  </td>
 	</tr>
 	<tr>
 	  <td>11</td>
@@ -216,11 +218,11 @@ Classes are Fridays 9am-2pm
 		<p>Working with xUnit testing framework</p>
 	  </td>
 	  <td>
-		<a href="https://vimeo.com/97329157">Seven Ineffective Coding Habits of Many Programmers</a>
+		<a href="https://vimeo.com/97329157">Seven Ineffective Coding Habits of Many Programmers</a>,
 		<a href="http://xunit.github.io/">xUnit documentation</a>
 	  </td>
 	  <td>
-		<p>Expand on <a href="https://github.com/ronnieholm/Backend-web-programming-course-spring-2015/tree/master/Source/Presentations/Lecture12">calculator example</a>, adding tests for '-', '*', '/' operators</p>
+		<p>Enhance <a href="https://github.com/ronnieholm/Backend-web-programming-course-spring-2015/tree/master/Source/Presentations/Lecture12">calculator example</a> with tests for '-', '*', '/' operators</p>
 		<p>Investigate .NET DateTime type</p>
 		<p>Setup Github account in preparation for exam project</p>
 	  </td>

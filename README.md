@@ -193,7 +193,7 @@ Classes are Fridays 9am-2pm
 		<a href="http://www.telerik.com/videos/fiddler/getting-started-with-fiddler-web-debugging-proxy">Fiddler</a>
 	  </td>
 	  <td>
-		<p>Create your WebAPI service for an example of your choosing</a>
+		<p>Create your WebAPI service for a domain of your choosing</a>
 	  </td>
 	</tr>
 	<tr>

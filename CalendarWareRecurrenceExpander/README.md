@@ -71,11 +71,11 @@ backend based on screenshots, examples, and the below requirements:
 
   - It's encouraged, though not a strict functional requirement, that 
     you keep source code under version control on Github. It would
-	enhance team colloration.
+	enhance team collaboration.
 
 ## Deadlines
 
-Source code and documentation must handed two tech-savvy
+Source code and documentation must be handed to two tech-savvy
 potential investors no later than June 7, 2015 at 11.59pm or
 CalendarWare, Inc. risks bankruptcy.
 

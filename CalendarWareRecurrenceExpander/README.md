@@ -2,58 +2,58 @@
 
 You're the co-founder and backend developer at CalendarWare, Inc., a
 Roskilde-based startup specializing in next generation calendar
-solutions. Among the company's innovative products are plugins for
+solutions. Among the company's innovative, future products are plugins for
 Umbraco, Drupal, and SharePoint, adding calendars with advanced
-appointment recurrence features. The recurrence expander underlying
+appointment recurrence features. 
+
+The recurrence expander backend underlying
 the plugins is also to be integrated into custom project planning
 software and payment systems to generate project and payment
-schedules, respectively. In any event, advanced date arithmetic is
-called for, including the ability to handle recurrence exceptions for
+schedules. In each case, advanced date arithmetic is
+required, including the ability to handle recurrence exceptions for
 such dates as holidays and vacations.
 
 These offerings are typically composed of a frontend and a backend
 part. The frontend varies greatly with each content management,
 project planning, or payment scheduling system. As luck would have it,
 your co-founder is a skilled frontend developer who implements her
-part using the latest fad in frontend technologies. But for the date
-arithmetic, backend developer skills are required to provide the
+part using the latest fad in frontend technologies. But for the 
+recurrence expancion backend, your skills are required to provide the
 frontend with actual dates to display.
 
-In close cooperation, the two of you have agreed upon the requirements
+In close cooperation, the two of you have agreed on the requirements
 for the first prototype. As you've adopted the latest and greatest in
-agile development methodologies, lengthy requirement documents are a
-thing of the past. Staying true to the agile spirit, you mostly work
-from screenshots and improvise as you go.
+agile methodologies, lengthy requirement documents are a
+thing of the past. Instead, you mostly work from screenshots and
+example and iron out uncertainties as you go.
 
 While your partner develops the frontend, your job is to develop the
-backend based on screenshots and below deliberately vague
-requirements:
+backend based on screenshots, examples, and the below requirements:
 
   - For the backend to be easily consumed by various frontends, it
     must be implemented using open communication standards and capable
     of receiving requests and returning responses in JSON and XML
-    format. Specifically, the backend must be an ASP.NET WebAPI web
+    formats. Specifically, the backend must be an ASP.NET WebAPI
     service.
 
   - The backend must only use classes provided by Microsoft as
     part of the .NET framework or ASP.NET. No third-party
-	date expansion code is allowed. It may infringe on another party's
-	copyright or in the case of open source force CalendarWare,
-	Inc. to open source its precious code as well.
+	date expansion code is allowed. It could potentially infringe on 
+	another party's copyright.
 
   - Focus on making the code as human-readable as possible through
     good naming of classes, methods, variables, and so forth. The code
     should also be nicely separated into classes and method so as to
-    avoid code duplication and further communication and readability.
+    avoid code duplication and further human communication and readability.
 
   - Provided with a recurring appointment, the web service must expand
-    the appointment into its constituent series of appointments such
-    that they satisfy the recurrence pattern provided by the frontend.
+    it into a series of appointments such that they satisfy the 
+	recurrence pattern provided by the frontend. 
 
   - To ensure the backend works reliably, it must be accompanied with
-    automated integration tests exercising the API of the web service
-    and the various recurrence expansions. Integration tests must
-    accompany the web service, simulating a client calling it.
+    automated integration tests exercising the public API of the web 
+	service and hence its various recurrence expansions. The Integration 
+	tests must accompany the web service and simulate a client calling it.
 
   - In developing the application, where applicable, make use of
     proper language constructs and libraries covered in the
@@ -62,59 +62,60 @@ requirements:
     pick the one you feel is right.
 
   - To communicate key design decisions to your partner, you must
-    create and maintain a document of no more than four pages
-    highlighting key design decisions such as patterns, algorithms
-    used, trade-offs and an example of a web service request and
+    create and maintain a document of no more than four pages. The
+    document should be an experience report highlighting key design 
+	decisions such as patterns and algorithms
+    used, trade-offs and an example of your web service request and
     response. Think of this document as notes to your partner and
     future self.
 
 ## Deadlines
 
-Web service source code and documentation must be in the hands of two
+Source code and documentation must handed in to two tech-savy
 potential investors no later than June 7, 2015 at 11.59pm or
 CalendarWare, Inc. risks bankruptcy.
 
-On June 16, 2015, your partner is down with the flu and you alone must
-pitch your backend solution to two tech-savy potential investors. You
+On June 16, 2015, it so happens your partner is down with the flu and 
+you alone must pitch your backend to the two potential investors. You
 should prepare a presentation and time it for about 13 minutes. Make
 sure to include key points from last week's documentation -- investors
-are busy people so assume only one read it -- and include a demo of
+are busy people so assume only one has read it -- and include a demo of
 the web service in action. Following your presentation, you and the
-potential investors discuss your backend solution in particular and
+potential investors discuss your backend in particular and
 backend topics in general.
 
-## Requirements
+## Screenshots and examples
 
-To understand the backend requirements, the screenshots and description below are
-accompanied by examples of patterns and their pattern as well as expanded form. For 
+To better understand backend requirements, screenshots and description below are
+accompanied by examples of recurrence patterns and their expanded form. For 
 each example, it's assumed the recurring appointments starts on May 1, 2015 and
 repeats for five occurrences.
 
 ### Single, non-recurring appointment
 
-When you navigate to the calendar and select New appointment, the
-following dialog box appears. The dialog enables you to create a
-simple non-recurring appointment:
+When you navigate to the future calendar in one of the content management systems 
+and select New appointment, the following dialog box appears. It enables you to 
+create a simple non-recurring appointment:
 
 ![Empty appointment](Empty-appointment.png)
 
-The Category dropdown consisting of the following options:
+The Category dropdown consists of the following options:
 
   - Meeting
   - Holiday
   - Birthday
   - Anniversary
 
-But the exact options aren't that important. Think of it as a way of
-optionally tagging appointments. In the frontend, you could then
-filter appointments by one of these tags.
+The exact options aren't that important. Think of the options as a way of
+tagging appointments. In the frontend, appointments can then filtered by 
+one these.
 
 ### Daily recurring appointment
 
-When you click the "Make this a repeating event", the dialog reacts by
-expanding the user interface with a recurrence pattern selector. Also
-the Start date and End date from New-item are replaced by Start time
-and End time because the actual dates are generated by the recurrence
+When you click "Make this a repeating event", the dialog box adjusts by
+adding a recurrence pattern selector. Also, Start date and End date 
+from the empty appointment are replaced by Start time
+and End time because actual dates are inferred from the recurrence
 pattern:
 
 ![Repeating appointment daily](Repeating-appointment-daily.png)
@@ -136,7 +137,7 @@ Weekly, every 3 weeks on Mon, Wed, Fri: 5/1/2015, 5/18/2015, 5/20/2015, 5/22/201
 
 ![Repeating appointment monthly](Repeating-appointment-monthly.png)
 
-The "first" dropdown contains 
+The "first" dropdown contains options
 
   - first
   - second
@@ -144,7 +145,7 @@ The "first" dropdown contains
   - fourth
   - last
 
-The "day" dropdown contains
+The "day" dropdown contains options
 
   - weekday
   - weekend day
@@ -166,17 +167,12 @@ Monthly, last Friday of every 3 months: 5/29/2015, 8/28/2015, 11/27/2015, 2/26/2
 
 ![Repeating appointment yearly](Repeating-appointment-yearly.png)
 
-As for the dropdowns, "first" and "day" contain the same options as listed under Monthly. The
+As for the dropdowns, "first" and "day" contain the options listed under Monthly. The
 "January" dropdown contains all 12 months.
 
 Examples:
 
-Yearly, every May 5
-
-5/5/2015, 5/5/2016, 5/5/2017, 5/5/2018, 5/5/2019
-
-Yearly, the fourth weekday of April
-
-4/6/2016, 4/6/2017, 4/5/2018, 4/4/2019, 4/6/2020
+Yearly, every May 5: 5/5/2015, 5/5/2016, 5/5/2017, 5/5/2018, 5/5/2019
+Yearly, the fourth weekday of April: 4/6/2016, 4/6/2017, 4/5/2018, 4/4/2019, 4/6/2020
 
 

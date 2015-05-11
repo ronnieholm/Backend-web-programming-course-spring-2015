@@ -18,7 +18,7 @@ part. The frontend varies greatly with each content management,
 project planning, or payment scheduling system. As luck would have it,
 your co-founder is a skilled frontend developer who implements her
 part using the latest fad in frontend technologies. But for the 
-recurrence expancion backend, your skills are required to provide the
+recurrence expansion backend, your skills are required to provide the
 frontend with actual dates to display.
 
 In close cooperation, the two of you have agreed on the requirements
@@ -69,13 +69,13 @@ backend based on screenshots, examples, and the below requirements:
     response. Think of this document as notes to your partner and
     future self.
 
-  - It's encouraged, though not a strict requirement, that you keep
-    source code under version control on Github. It would ease
-	colleboration between you, your co-founder and potential investors.
+  - It's encouraged, though not a strict functional requirement, that 
+    you keep source code under version control on Github. It would
+	enhance team colloration.
 
 ## Deadlines
 
-Source code and documentation must handed in to two tech-savy
+Source code and documentation must handed in to two tech-savvy
 potential investors no later than June 7, 2015 at 11.59pm or
 CalendarWare, Inc. risks bankruptcy.
 
@@ -111,8 +111,8 @@ The Category dropdown consists of the following options:
   - Anniversary
 
 The exact options aren't that important. Think of the options as a way of
-tagging appointments. In the frontend, appointments can then filtered by 
-one these.
+tagging appointments. In the frontend, appointments can then be filtered 
+on those.
 
 ### Daily recurring appointment
 

@@ -75,18 +75,18 @@ backend based on screenshots, examples, and the below requirements:
 
 ## Deadlines
 
-Source code and documentation must handed in to two tech-savvy
+Source code and documentation must handed two tech-savvy
 potential investors no later than June 7, 2015 at 11.59pm or
 CalendarWare, Inc. risks bankruptcy.
 
-On June 16, 2015, it so happens your partner is down with the flu and 
-you alone must pitch your backend to the two potential investors. You
-should prepare a presentation and time it for about 13 minutes. Make
-sure to include key points from last week's documentation -- investors
-are busy people so assume only one has read it -- and include a demo of
-the web service in action. Following your presentation, you and the
-potential investors discuss your backend in particular and
-backend topics in general.
+On June 16, 2015, your co-founder and you were supposed to pitch
+your backend to the two potential investors. Unfortunately, your 
+partner is down with the flu. So you alone must prepare a presentation,
+timed for about 13 minutes. Make sure to include key points from last 
+week's documentation -- investors are busy people so assume only one 
+has read it -- and include a demo of the web service in action. 
+Following your presentation, you and the potential investors discuss 
+your backend in particular and backend topics in general.
 
 ## Screenshots and examples
 

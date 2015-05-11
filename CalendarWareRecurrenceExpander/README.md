@@ -69,6 +69,10 @@ backend based on screenshots, examples, and the below requirements:
     response. Think of this document as notes to your partner and
     future self.
 
+  - It's encouraged, though not a strict requirement, that you keep
+    source code under version control on Github. It would ease
+	colleboration between you, your co-founder and potential investors.
+
 ## Deadlines
 
 Source code and documentation must handed in to two tech-savy

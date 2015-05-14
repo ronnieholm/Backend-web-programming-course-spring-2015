@@ -100,7 +100,7 @@ Each of the examples in the weekly, monthly, and yearly sections below includes
 the lists of dates which the frontend expects to get back from the web service. 
 To put the web service's role in perspective, with these dates in hand, the 
 frontend clones the recurrence appointment, excluding the recurrence part. In 
-its places goes the specific start and end date information, in effect turning 
+its place goes the specific start and end date information, in effect turning 
 the recurring appointment into a series of single, non-recurring appointments 
 to be added to the calendar by the frontend.
 

@@ -4,7 +4,8 @@ You're the co-founder and backend developer at CalendarWare, Inc., a
 Roskilde-based startup specializing in next generation calendar
 solutions. Among the company's innovative, future products are plugins for
 Umbraco, Drupal, and SharePoint, adding calendars with advanced
-appointment recurrence features. 
+appointment recurrence features. If you have a Google account, its
+calendar actually provides a subset of these expansion features. 
 
 In the near future, the recurrence expander backend underlying the 
 plugins is also to be integrated into custom project planning 
@@ -17,8 +18,9 @@ part. The frontend varies greatly with each content management,
 project planning, or payment scheduling system. As luck would have it,
 your co-founder is a skilled frontend developer who implements her
 part using the latest fad in frontend technologies. But for the 
-backend, your skills are needed to provide the frontend with 
-actual dates to display.
+backend, your skills are requierd to turn the provided recurrence 
+pattern into actual dates on which to display appointments in the 
+frontend.
 
 In close cooperation, the two of you have agreed on the frontend and
 backed requirements for the first prototype. As you've adopted the 
@@ -89,10 +91,18 @@ your backend in particular and backend topics in general.
 
 ## Screenshots and examples
 
-To better understand backend requirements, the screenshots and prose below
+To better understand the backend requirements, the screenshots and prose below
 are accompanied by examples of recurrence patterns and their expanded forms. For 
-each example, it's assumed the recurring appointments starts on May 1, 2015 and
-repeats for five occurrences.
+each example, it's assumed the recurring appointment starts on May 1, 2015 and
+repeats for five occurrences. 
+
+Each of the examples in the weekly, monthly, and yearly sections below include 
+the lists of dates which the frontend expects to get back from the web service. 
+To put the web service's role in perspective, with these dates in hand, the 
+frontend clones the recurrence appointment, excluding the recurrence part. In 
+its places goes the specific start and end date information, in effect turning 
+the recurring appointment into a series of single, non-recurring appointments 
+to be added to the calendar by the frontend.
 
 ### Single, non-recurring appointments
 
@@ -177,4 +187,12 @@ Examples:
 Yearly, every May 5: 5/5/2015, 5/5/2016, 5/5/2017, 5/5/2018, 5/5/2019  
 Yearly, the fourth weekday of April: 4/6/2016, 4/6/2017, 4/5/2018, 4/4/2019, 4/6/2020
 
+### Recurrence exceptions
 
+Whether or not the backend should handle recurrence exceptions is up to you as the backend 
+developer to decide -- the example screenshots contain no input fields for recurrence exceptions. 
+The key idea, though, is to have the ability to exclude one or more of the expanded dates. 
+For instance, suppose an appointment represents a class every Friday, but due to national 
+holidays some Fridays must be skipped. Each Friday being skipped is a recurrence exception 
+to the pattern. In principle, either the frontend or backend or both could have this feature
+build in.

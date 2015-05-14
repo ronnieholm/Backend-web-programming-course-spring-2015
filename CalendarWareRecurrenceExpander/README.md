@@ -18,7 +18,7 @@ part. The frontend varies greatly with each content management,
 project planning, or payment scheduling system. As luck would have it,
 your co-founder is a skilled frontend developer who implements her
 part using the latest fad in frontend technologies. But for the 
-backend, your skills are requierd to turn the provided recurrence 
+backend, your skills are required to turn the provided recurrence 
 pattern into actual dates on which to display appointments in the 
 frontend.
 
@@ -64,10 +64,10 @@ backend based on these screenshots, examples, and below requirements:
 
   - To communicate key design decisions to your co-founder, future self, 
     and potential investors, you must create and maintain a document of 
-	no more than four pages. It should be an experience report 
-	highlighting key design decisions such as patterns and algorithms
-    used, trade-offs and an example of the web service request and
-    response for an expansion.
+	no more than four pages. It should be an experience report emphasizing 
+	the "why" of key design decisions, algorithms used and their trade-offs.
+	In addition, include an example of the underlying web service request 
+	and response for a recurrence pattern of your choice.
 
   - It's encouraged, though not a strict functional requirement, that 
     you keep source code under version control using Github. Doing so

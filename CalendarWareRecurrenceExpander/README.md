@@ -96,7 +96,7 @@ are accompanied by examples of recurrence patterns and their expanded forms. For
 each example, it's assumed the recurring appointment starts on May 1, 2015 and
 repeats for five occurrences. 
 
-Each of the examples in the weekly, monthly, and yearly sections below include 
+Each of the examples in the weekly, monthly, and yearly sections below includes 
 the lists of dates which the frontend expects to get back from the web service. 
 To put the web service's role in perspective, with these dates in hand, the 
 frontend clones the recurrence appointment, excluding the recurrence part. In 

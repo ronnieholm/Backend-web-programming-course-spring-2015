@@ -149,7 +149,7 @@ Examples:
 Daily, every 3 days: 5/1/2015, 5/2/2015, 5/3/2015, 5/4/2015, 5/5/2015  
 Daily, every weekday: 5/1/2015, 5/4/2015, 5/5/2015, 5/6/2015, 5/7/2015
 
-## Weekly recurring appointments
+### Weekly recurring appointments
 
 ![Repeating appointment weekly](Repeating-appointment-weekly.png)
 

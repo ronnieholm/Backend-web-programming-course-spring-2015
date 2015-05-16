@@ -113,7 +113,7 @@ place goes the specific start and end date information, in effect
 turning the recurring appointment into a series of single,
 non-recurring appointments to be displayed on the calendar.
 
-### Single, non-recurring appointments
+### Single, non-recurring appointment
 
 After you navigate to the calendar in one of the content
 management systems and select *New appointment*, the following
@@ -133,7 +133,7 @@ Think of the options as a way of tagging appointments. In the
 frontend, appointments can then be filtered on those. The exact
 options aren't all too important.
 
-### Daily recurring appointments
+### Daily recurring appointment
 
 When you click the *Make this a repeating event* option, the user
 interface changes and the recurrence pattern selector
@@ -149,7 +149,7 @@ Examples:
 Daily, every 3 days: 5/1/2015, 5/2/2015, 5/3/2015, 5/4/2015, 5/5/2015  
 Daily, every weekday: 5/1/2015, 5/4/2015, 5/5/2015, 5/6/2015, 5/7/2015
 
-### Weekly recurring appointments
+### Weekly recurring appointment
 
 ![Repeating appointment weekly](Repeating-appointment-weekly.png)
 
@@ -157,7 +157,7 @@ Examples:
 
 Weekly, every 3 weeks on Mon, Wed, Fri: 5/1/2015, 5/18/2015, 5/20/2015, 5/22/2015, 6/8/2015
 
-### Monthly recurring appointments
+### Monthly recurring appointment
 
 ![Repeating appointment monthly](Repeating-appointment-monthly.png)
 

@@ -217,7 +217,7 @@ To facilitate development and testing, it might be worth creating
 an empty Visual Studio solution and adding the following three
 projects to it:
 
-  - CalendarRecurrenceExpander (solution)
+  - CalendarRecurrenceExpander (Solution)
     - CalendarRecurrenceExpander.Web (ASP.NET Web Application)
     - CalendarRecurrenceExpander.Test (Class Library)
     - CalendarRecurrenceExpander.Console (Console Application)

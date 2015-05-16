@@ -33,7 +33,7 @@ missing requirements as you encouter those.
 Based on these screenshots and example patterns, your partner has
 started developing the frontend. Your job is to develop the
 backend to support these screenshots and examples, taking into
-account the requirements below:
+account the additional requirements below:
 
   - For the backend to be easily consumed by various frontends,
     it must be implemented using open communication standards and

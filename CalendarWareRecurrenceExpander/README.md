@@ -1,114 +1,124 @@
 # CalendarWare recurrence expander
 
-You're the co-founder and backend developer at CalendarWare, Inc., a
-Roskilde-based startup specializing in next generation calendar
-solutions. Among the company's innovative, future products are plugins for
-Umbraco, Drupal, and SharePoint, adding calendars with advanced
-appointment recurrence features. If you have a Google account, its
-calendar actually provides a subset of these expansion features. 
+You're the co-founder and backend developer at CalendarWare,
+Inc., a Roskilde-based startup specializing in next generation
+calendar solutions. Among the company's innovative, future
+products are plugins for Umbraco, Drupal, and SharePoint, adding
+calendars with advanced appointment recurrence features, akin to
+Google Calendar.
 
-In the near future, the recurrence expander backend underlying the 
-plugins is also to be integrated into custom project planning 
-software and payment systems to generate project and payment schedules. 
-In all cases, advanced date arithmetic is required, including the ability 
-to handle recurrence exceptions for such dates as holidays and vacations.
+In the near future, the plan is to expand and integrate the
+calendar plugins with custom project planning software and
+payment systems to generate project and payment schedules. In all
+cases, advanced date arithmetic is required, including the
+ability to handle recurrence exceptions for such dates as
+holidays and vacations.
 
-These offerings are typically composed of a frontend and a backend
+The plugins are typically composed of a frontend and a backend
 part. The frontend varies greatly with each content management,
-project planning, or payment scheduling system. As luck would have it,
-your co-founder is a skilled frontend developer who implements her
-part using the latest fad in frontend technologies. But for the 
-backend, your skills are required to turn the provided recurrence 
-pattern into actual dates on which to display appointments in the 
-frontend.
+project planning, or payment scheduling system. As luck would
+have it, your co-founder is a skilled frontend developer who
+implements her part using the latest fad in frontend
+technologies. But for designing and developing the backend, your
+skills are required to turn the recurrence patterns into an
+appointment series to display in the frontend.
 
-In close cooperation, the two of you have agreed on the frontend and
-backed requirements for the first prototype. As you've adopted the 
-latest and greatest in agile methodologies, lengthy requirement 
-documents are a thing of the past. Instead, you mostly work from 
-screenshots and examples and iron out uncertainties as you go.
+In close cooperation, the two of you have agreed on the frontend
+and backed requirements for the initial prototype. As you've
+adopted the latest and greatest in agile methodologies, lengthy
+requirement documents are a thing of the past. Instead, you work
+from screenshots and example patterns and address unclear or
+missing requirements as you encouter those.
 
-While your partner develops the frontend, your job is to develop the
-backend based on these screenshots, examples, and below requirements:
+Based on these screenshots and example patterns, your partner has
+started developing the frontend. Your job is to develop the
+backend to support these screenshots and examples, taking into
+account the requirements below:
 
-  - For the backend to be easily consumed by various frontends, it
-    must be implemented using open communication standards and capable
-    of receiving requests and returning responses in JSON and XML
-    formats. Specifically, the backend must be an ASP.NET WebAPI
-    service.
+  - For the backend to be easily consumed by various frontends,
+    it must be implemented using open communication standards and
+    capable of receiving requests and returning responses in JSON
+    and XML formats. Specifically, the backend must be an ASP.NET
+    WebAPI service.
 
-  - Provided with a recurring appointment, the web service must expand
-    it into a series of appointments such that they satisfy the 
-	recurrence pattern provided by the frontend. 
+  - Provided with a recurrence pattern, serialized as XML or JSON
+    by the frontend and deserialized into an object by ASP.NET
+    WebAPI, the web service must expand it into a series of dates
+    that satisfy the recurrence pattern.
 
-  - The backend must only use classes provided by Microsoft as
-    part of the .NET framework or ASP.NET. No third-party
-	date expansion code is allowed. It could potentially infringe on 
-	another party's copyright.
+  - To ensure the backend works correctly and reliably -- and
+    keeps doing so -- it must be accompanied by automated
+    integration tests. These should only exercise the public API
+    of the web service, simulating a client calling it.
 
-  - Focus on making the code as human-readable as possible through
-    good naming of classes, methods, variables, and so forth. The code
-    should also be nicely separated into classes and method so as to
-    avoid code duplication and further human communication and readability.
+  - The backend must only use classes which are part of the .NET
+    framework or ASP.NET. No third-party date expansion code is
+    allowed. It could potentially infringe on another company's
+    copyright or patents.
 
-  - To ensure the backend works reliably, it must be accompanied with
-    automated integration tests exercising the public API of the web 
-	service and hence its various recurrence expansions. The Integration 
-	tests must accompany the web service and simulate a client calling it.
+  - In developing the web service and integration tests, make use
+    of the object-oriented language and library constructs
+    covered in the course. Don't try to shoehorn each and every
+    construct into the design and implementation, but evaluate
+    alternatives against the intended outcome and pick one that
+    meets your needs.
 
-  - In developing the application, where applicable, make use of
-    proper language constructs and libraries covered in the
-    course. Don't try to shoehorn each and every construct into the
-    application, but evaluate each against your intended design and
-    pick the one you decide is right.
+  - Focus on making the code as human-readable as possible
+    through good naming of classes, methods, variables, and so
+    forth. The code should be nicely separated into classes and
+    method so as to avoid code duplication and further human
+    communication and readability.
 
-  - To communicate key design decisions to your co-founder, future self, 
-    and potential investors, you must create and maintain a document of 
-	no more than four pages. It should be an experience report emphasizing 
-	the "why" of key design decisions, algorithms used and their trade-offs.
-	In addition, include an example of the underlying web service request 
-	and response for a recurrence pattern of your choice.
+  - To communicate key design decisions to your co-founder,
+    future self, and potential investors, you must create and
+    maintain a document of no more than four pages. Think of it
+    as an experience report emphasizing the "why" of key design
+    decisions, algorithms used and their trade-offs. In addition,
+    include an example of the web service's XML and JSON request
+    and response for a recurrence pattern of your choice.
 
-  - It's encouraged, though not a strict functional requirement, that 
-    you keep source code under version control using Github. Doing so
-	enhances team collaboration and makes development easier when
-	you want to undo code changes and revert to a known state.
+  - It's encouraged, though not a strict functional requirement,
+    that you keep source code under version control using
+    Github. Doing so enhances team collaboration and makes it
+    easier for you to undo code changes and revert to a known
+    state.
 
 ## Deadlines
 
-Source code and documentation must be provided to your co-founder and
-two tech-savvy potential investors no later than June 7, 2015 at 11.59pm 
-or CalendarWare, Inc. risks bankruptcy.
+Source code and documentation must be provided to your co-founder
+and two tech-savvy potential investors no later than June 7, 2015
+at 11.59pm or CalendarWare, Inc. risks bankruptcy.
 
-On June 16, 2015, your co-founder and you are to pitch
-your backend to the two potential investors. Unfortunately, your 
-partner is down with the flu and you alone must prepare a presentation
-and time it for about 13 minutes. Make sure to include key points from last 
-week's experience report -- investors are busy people so assume only one 
-has read it -- and a demo of the web service in action. 
-Following your presentation, you and the potential investors will discuss 
+On June 16, 2015, your partner and you are to pitch your backend
+to the two potential investors. Unfortunately, your partner has
+come down with the flu and you alone must prepare a 13 minutes
+presentation. Make sure to include key points from the experience
+report -- investors are busy people so assume only one has read
+the report -- and a demo of the web service in action. Following
+the presentation, you and the potential investors will discuss
 your backend in particular and backend topics in general.
 
 ## Screenshots and examples
 
-To better understand the backend requirements, the screenshots and prose below
-are accompanied by examples of recurrence patterns and their expanded forms. For 
-each example, it's assumed the recurring appointment starts on May 1, 2015 and
-repeats for five occurrences. 
+To better understand the backend requirements, the screenshots
+and prose below are accompanied by examples of recurrence
+patterns and what they expand to. For each example, it's assumed
+the recurrence pattern starts on May 1, 2015 and repeats for five
+occurrences.
 
-Each of the examples in the weekly, monthly, and yearly sections below includes 
-the lists of dates which the frontend expects to get back from the web service. 
-To put the web service's role in perspective, with these dates in hand, the 
-frontend clones the recurrence appointment, excluding the recurrence part. In 
-its place goes the specific start and end date information, in effect turning 
-the recurring appointment into a series of single, non-recurring appointments 
-to be added to the calendar by the frontend.
+Given a pattern, the frontend expects the backend to return its
+expanded form. With these dates in hand, the frontend clones the
+recurrence appointment, excluding the recurrence part. In its
+place goes the specific start and end date information, in effect
+turning the recurring appointment into a series of single,
+non-recurring appointments to be displayed on the calendar.
 
 ### Single, non-recurring appointments
 
-After you navigate to the calendar in one of the content management systems 
-and select New appointment, the following dialog box appears. It enables you to 
-create a simple non-recurring appointment:
+After you navigate to the calendar in one of the content
+management systems and select *New appointment*, the following
+dialog box appears. It enables you to create a single,
+non-recurring appointment:
 
 ![Empty appointment](Empty-appointment.png)
 
@@ -119,16 +129,18 @@ The Category dropdown consists of the following options:
   - Birthday
   - Anniversary
 
-Think of the options as a way of tagging appointments. In the frontend, appointments 
-can then be filtered on those. The exact options aren't all too important.
+Think of the options as a way of tagging appointments. In the
+frontend, appointments can then be filtered on those. The exact
+options aren't all too important.
 
 ### Daily recurring appointments
 
-When you click the "Make this a repeating event" option, the dialog box changes and
-a recurrence pattern selector appears. Also, Start date and End date 
-from the empty appointment are replaced by Start time
-and End time because the actual dates are inferred from the recurrence
-pattern:
+When you click the *Make this a repeating event* option, the user
+interface changes and the recurrence pattern selector
+appears. Also, the Start and End date and time components from
+the Single, non-recurring appointment above get replaced by Start
+time and End time only. The actual dates are inferred from the
+recurrence pattern:
 
 ![Repeating appointment daily](Repeating-appointment-daily.png)
 
@@ -149,7 +161,7 @@ Weekly, every 3 weeks on Mon, Wed, Fri: 5/1/2015, 5/18/2015, 5/20/2015, 5/22/201
 
 ![Repeating appointment monthly](Repeating-appointment-monthly.png)
 
-The "first" dropdown contains options
+The *first* dropdown contains options
 
   - first
   - second
@@ -157,7 +169,7 @@ The "first" dropdown contains options
   - fourth
   - last
 
-The "day" dropdown contains options
+The *day* dropdown contains options
 
   - weekday
   - weekend day
@@ -179,8 +191,9 @@ Monthly, last Friday of every 3 months: 5/29/2015, 8/28/2015, 11/27/2015, 2/26/2
 
 ![Repeating appointment yearly](Repeating-appointment-yearly.png)
 
-As for the dropdowns, "first" and "day" contain the options listed under Monthly. The
-"January" dropdown contains all 12 months.
+As for the dropdowns, *first* and *day* contain the options
+listed under Monthly. The *January* dropdown contains all 12
+months.
 
 Examples:
 
@@ -189,10 +202,34 @@ Yearly, the fourth weekday of April: 4/6/2016, 4/6/2017, 4/5/2018, 4/4/2019, 4/6
 
 ### Recurrence exceptions
 
-Whether or not the backend should handle recurrence exceptions is up to you as the backend 
-developer to decide -- the example screenshots contain no input fields for recurrence exceptions. 
-The key idea, though, is to have the ability to exclude one or more of the expanded dates. 
-For instance, suppose an appointment represents a class every Friday, but due to national 
-holidays some Fridays must be skipped. Each Friday being skipped is a recurrence exception 
-to the pattern. In principle, either the frontend or backend or both could have this feature
-build in.
+Whether or not the backend should handle recurrence exceptions is
+up to you as the backend developer. The key idea, though, is to
+have the ability to exclude one or more of the pattern's expanded
+dates. For instance, suppose an appointment represents a class
+every Friday, but due to national holidays some Fridays must be
+skipped. Each Friday being skipped is a recurrence exception to
+the pattern. In principle, either the frontend or backend or both
+could have this feature build in.
+
+## Tips and tricks
+
+To facilitate development and testing, it might be worth creating
+an empty Visual Studio solution and adding the following three
+projects to it:
+
+  - CalendarRecurrenceExpander (solution)
+    - CalendarRecurrenceExpander.Web (ASP.NET Web Application)
+    - CalendarRecurrenceExpander.Test (Class Library)
+    - CalendarRecurrenceExpander.Console (Console Application)
+
+The Web project is based on the Web API sub-template and is where
+the ASP.NET WebAPI service resides. The Test project makes use of
+the xUnit framework and makes calls to the web service through
+the HttpClient class. For test code to be able to call the web
+service, the project must reference the Newtonsoft.Json Nuget
+package and System.Net.Http local assembly. To further add xUnit
+support to the Test project, reference the xunit and
+xunit.runner.visualstudio Nuget packages. Finally, the Console
+project is a playground. providing rapid feedback when playing
+with C# or parts of the .NET framework. It isn't intended for
+production code.

@@ -4,7 +4,7 @@ You're the co-founder and backend developer at CalendarWare,
 Inc., a Roskilde-based startup specializing in next generation
 calendar solutions. Among the company's innovative, future
 products are plugins for Umbraco, Drupal, and SharePoint, adding
-calendars with advanced appointment recurrence features, akin to
+calendars with advanced appointment recurrence features akin to
 Google Calendar.
 
 In the near future, the plan is to expand and integrate the
@@ -75,7 +75,7 @@ account the additional requirements below:
     as an experience report emphasizing the "why" of key design
     decisions, algorithms used and their trade-offs. In addition,
     include an example of the web service's XML and JSON request
-    and response for a recurrence pattern of your choice.
+    and response for a recurrence pattern of your choosing.
 
   - It's encouraged, though not a strict functional requirement,
     that you keep source code under version control using

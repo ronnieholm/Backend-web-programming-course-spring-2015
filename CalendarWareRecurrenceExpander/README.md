@@ -219,17 +219,17 @@ projects to it:
 
   - CalendarRecurrenceExpander (Solution)
     - CalendarRecurrenceExpander.Web (ASP.NET Web Application)
+	  - For ASP.NET WebAPI service
+	  - Based on Web API sub-template
     - CalendarRecurrenceExpander.Test (Class Library)
+	  - Add xUnit support to project by referencing xunit and
+        xunit.runner.visualstudio Nuget packages.
+	  - For code to be able to call web service, reference the 
+	    Newtonsoft.Json Nuget package and System.Net.Http local 
+		assembly.
+      - Make calls to the web service through the HttpClient class
     - CalendarRecurrenceExpander.Console (Console Application)
+	  - Playground for providing rapid feedback when playing
+        with C# or parts of the .NET framework.
+      - Coded not intended for production use
 
-The Web project is based on the Web API sub-template and is where
-the ASP.NET WebAPI service resides. The Test project makes use of
-the xUnit framework and makes calls to the web service through
-the HttpClient class. For test code to be able to call the web
-service, the project must reference the Newtonsoft.Json Nuget
-package and System.Net.Http local assembly. To further add xUnit
-support to the Test project, reference the xunit and
-xunit.runner.visualstudio Nuget packages. Finally, the Console
-project is a playground. providing rapid feedback when playing
-with C# or parts of the .NET framework. It isn't intended for
-production code.

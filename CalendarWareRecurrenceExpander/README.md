@@ -219,7 +219,7 @@ projects to it:
 
   - CalendarRecurrenceExpander (Solution)
     - CalendarRecurrenceExpander.Web (ASP.NET Web Application)
-	  - For ASP.NET WebAPI service
+	  - For hosting ASP.NET WebAPI service
 	  - Based on Web API sub-template
     - CalendarRecurrenceExpander.Test (Class Library)
 	  - Add xUnit support to project by referencing xunit and

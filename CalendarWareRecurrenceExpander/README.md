@@ -221,6 +221,8 @@ projects to it:
     - CalendarRecurrenceExpander.Web (ASP.NET Web Application)
 	  - For hosting ASP.NET WebAPI service.
 	  - Based on Web API sub-template.
+	  - Common convention is to manually add an Api folder
+	    to hold WebAPI controllers.
     - CalendarRecurrenceExpander.Test (Class Library)
 	  - Add xUnit support to project by referencing xunit and
         xunit.runner.visualstudio Nuget packages.

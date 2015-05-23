@@ -35,6 +35,9 @@ started developing the frontend. Your job is to develop the
 backend to support these screenshots and examples, taking into
 account the additional requirements below:
 
+  - At a minimum, the backend must be able to support daily and
+    weekly recurring appointment.
+
   - For the backend to be easily consumed by various frontends,
     it must be implemented using open communication standards and
     capable of receiving requests and returning responses in JSON

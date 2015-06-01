@@ -9,8 +9,8 @@ Google Calendar.
 
 In the near future, the plan is to expand and integrate the
 calendar plugins with custom project planning software and
-payment systems to generate project and payment schedules. In all
-cases, advanced date arithmetic is required, including the
+payment systems to generate project and payment schedules. In each
+case, advanced date arithmetic is required, including the
 ability to handle recurrence exceptions for such dates as
 holidays and vacations.
 
@@ -24,19 +24,20 @@ skills are required to turn the recurrence patterns into an
 appointment series to display in the frontend.
 
 In close cooperation, the two of you have agreed on the frontend
-and backed requirements for the initial prototype. As you've
+and backend requirements for the initial prototype. As you've
 adopted the latest and greatest in agile methodologies, lengthy
 requirement documents are a thing of the past. Instead, you work
 from screenshots and example patterns and address unclear or
-missing requirements as you encouter those.
+missing requirements as they materialize.
 
 Based on these screenshots and example patterns, your partner has
 started developing the frontend. Your job is to develop the
-backend to support these screenshots and examples, taking into
-account the additional requirements below:
+backend, taking into account the additional requirements below:
 
-  - At a minimum, the backend must be able to support daily and
-    weekly recurring appointment.
+  - At a minimum, the backend must support daily and weekly 
+    recurring appointments within a start date and end date
+	range. The *No end date* and *End after n occurrence(s)*
+	aren't required for the minimum implmentation.
 
   - For the backend to be easily consumed by various frontends,
     it must be implemented using open communication standards and
@@ -44,32 +45,34 @@ account the additional requirements below:
     and XML formats. Specifically, the backend must be an ASP.NET
     WebAPI service.
 
-  - Provided with a recurrence pattern, serialized as XML or JSON
+  - Provided with a recurrence pattern, serialized as JSON or XML
     by the frontend and deserialized into an object by ASP.NET
     WebAPI, the web service must expand it into a series of dates
-    that satisfy the recurrence pattern.
+    which satisfy the recurrence pattern.
 
   - To ensure the backend works correctly and reliably -- and
     keeps doing so -- it must be accompanied by automated
-    integration tests. These should only exercise the public API
-    of the web service, simulating a client calling it.
+    tests. These should exercise the public API of the web 
+	service, simulating a client calling it. Tests may be 
+	implemented using either the xUnit testing framework or
+	a console application.
 
-  - The backend must only use classes which are part of the .NET
-    framework or ASP.NET. No third-party date expansion code is
+  - The backend must only use classes which are part of the core
+    .NET framework or ASP.NET. No third-party date expansion code is
     allowed. It could potentially infringe on another company's
     copyright or patents.
 
-  - In developing the web service and integration tests, make use
-    of the object-oriented language and library constructs
-    covered in the course. Don't try to shoehorn each and every
-    construct into the design and implementation, but evaluate
-    alternatives against the intended outcome and pick one that
-    meets your needs.
+  - In developing the web service and tests, make use of the 
+    object-oriented language and library constructs covered in the 
+	course. Don't try to shoehorn each and every construct into 
+	the design and implementation, but evaluate alternatives 
+	against the intended outcome and pick one that meets your 
+	needs.
 
   - Focus on making the code as human-readable as possible
     through good naming of classes, methods, variables, and so
     forth. The code should be nicely separated into classes and
-    method so as to avoid code duplication and further human
+    methods so as to avoid code duplication and further human
     communication and readability.
 
   - To communicate key design decisions to your co-founder,
@@ -111,14 +114,14 @@ occurrences.
 
 Given a pattern, the frontend expects the backend to return its
 expanded form. With these dates in hand, the frontend clones the
-recurrence appointment, excluding the recurrence part. In its
-place goes the specific start and end date information, in effect
-turning the recurring appointment into a series of single,
-non-recurring appointments to be displayed on the calendar.
+recurrence appointment, not including the recurrence part. In its
+place goes each start date and end date returned by the backend, 
+in effect turning the recurring appointment into a series of 
+single, non-recurring appointments to be displayed on the calendar.
 
 ### Single, non-recurring appointment
 
-After you navigate to the calendar in one of the content
+After you navigate to the future calendar in one of the content
 management systems and select *New appointment*, the following
 dialog box appears. It enables you to create a single,
 non-recurring appointment:
@@ -141,7 +144,7 @@ options aren't all too important.
 When you click the *Make this a repeating event* option, the user
 interface changes and the recurrence pattern selector
 appears. Also, the Start and End date and time components from
-the Single, non-recurring appointment above get replaced by Start
+the Single, non-recurring appointment above is replaced by Start
 time and End time only. The actual dates are inferred from the
 recurrence pattern:
 
@@ -205,20 +208,24 @@ Yearly, the fourth weekday of April: 4/6/2016, 4/6/2017, 4/5/2018, 4/4/2019, 4/6
 
 ### Recurrence exceptions
 
-Whether or not the backend should handle recurrence exceptions is
-up to you as the backend developer. The key idea, though, is to
-have the ability to exclude one or more of the pattern's expanded
-dates. For instance, suppose an appointment represents a class
-every Friday, but due to national holidays some Fridays must be
-skipped. Each Friday being skipped is a recurrence exception to
-the pattern. In principle, either the frontend or backend or both
-could have this feature build in.
+Whether or not the frontend or backend should handle recurrence
+exceptions is up to you as the backend developer. The key idea,
+though, is to have the ability to exclude one or more of the 
+expanded dates. For instance, suppose an appointment represents 
+a class every Friday, but due to national holidays some Fridays 
+must be skipped. Each Friday being skipped is a recurrence exception 
+to the pattern. In principle, either the frontend or backend or 
+both could have this feature build in.
 
 ## Tips and tricks
 
+### Setting up Visual Studio solution
+
 To facilitate development and testing, it might be worth creating
-an empty Visual Studio solution and adding the following three
-projects to it:
+an empty Visual Studio solution and adding the following projects 
+to it. Notice the difference between the two types of testing 
+projects. Pick either the xUnit or the console based approach to 
+testing:
 
   - CalendarRecurrenceExpander (Solution)
     - CalendarRecurrenceExpander.Web (ASP.NET Web Application)
@@ -226,15 +233,27 @@ projects to it:
 	  - Based on Web API sub-template.
 	  - Common convention is to manually add an Api folder
 	    to hold WebAPI controllers.
-    - CalendarRecurrenceExpander.Test (Class Library)
+    - CalendarRecurrenceExpander.Test (Class Library if testing with xUnit)
 	  - Add xUnit support to project by referencing xunit and
         xunit.runner.visualstudio Nuget packages.
 	  - For code to be able to call web service, reference the 
 	    Newtonsoft.Json Nuget package and System.Net.Http local 
 		assembly.
       - Make calls to the web service through the HttpClient class.
-    - CalendarRecurrenceExpander.Console (Console Application)
-	  - Playground for providing rapid feedback when playing
-        with C# or parts of the .NET framework.
-      - Coded not intended for production use.
+    - CalendarRecurrenceExpander.Console (Console Application if testing with regular console app)
+	  - For code to be able to call web service, reference the 
+	    Newtonsoft.Json Nuget package and System.Net.Http local 
+		assembly.
+      - Make calls to the web service through the HttpClient class.
 
+### Separating business logic into controllers
+
+In terms of the HTTP protocol, which ASP.NET WebAPI is an abstraction
+on top of, each controller represents a ressource. One ressource, and 
+hence one WebAPI controller, may respond to HTTP verbs such as Get, 
+Put, Post, and Delete by adding methods by the same names to the controller. 
+In general, it isn't possible to have the controller support more than 
+one of each type verb or method. Thus, when posting recurrence patterns to 
+the web service, one controller is required for each recurrence pattern, 
+resulting in controllers such as DailyEveryNthDayController, 
+DailyEveryWeekdayController, and so on.

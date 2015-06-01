@@ -37,7 +37,7 @@ backend, taking into account the additional requirements below:
   - At a minimum, the backend must support daily and weekly 
     recurring appointments within a start date and end date
 	range. The *No end date* and *End after n occurrence(s)*
-	aren't required for the minimum implmentation.
+	aren't required for the minimum implementation.
 
   - For the backend to be easily consumed by various frontends,
     it must be implemented using open communication standards and
@@ -249,11 +249,11 @@ testing:
 ### Separating business logic into controllers
 
 In terms of the HTTP protocol, which ASP.NET WebAPI is an abstraction
-on top of, each controller represents a ressource. One ressource, and 
+on top of, each controller represents a resource. One resource, and 
 hence one WebAPI controller, may respond to HTTP verbs such as Get, 
-Put, Post, and Delete by adding methods by the same names to the controller. 
-In general, it isn't possible to have the controller support more than 
-one of each type verb or method. Thus, when posting recurrence patterns to 
+Put, Post, and Delete by adding a method by the same name to the controller. 
+In general, it isn't possible to add more than one of each kind of verb or 
+method to the controller. Thus, when posting recurrence patterns to 
 the web service, one controller is required for each recurrence pattern, 
 resulting in controllers such as DailyEveryNthDayController, 
 DailyEveryWeekdayController, and so on.

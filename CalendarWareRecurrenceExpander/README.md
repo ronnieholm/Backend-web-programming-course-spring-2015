@@ -255,5 +255,5 @@ Put, Post, and Delete through controller methods by the same names.
 In general, it isn't possible to add more than one of each kind of verb or 
 method to the controller. Thus, when posting recurrence patterns to 
 the web service, one controller is required for each recurrence pattern, 
-resulting in controllers such as DailyEveryNthDayController, 
+resulting in controllers such as DailyEveryNthDayController and 
 DailyEveryWeekdayController.

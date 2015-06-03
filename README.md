@@ -258,6 +258,15 @@ Classes are Fridays 9am-2pm
 	</tr>
 	<tr> 
 	  <td>-</td>
+	  <td>Jun 7</td>
+	  <td>
+		<p>Exam assignment hand-in</p>
+	  </td>
+	  <td></td>
+	  <td>&nbsp;</td>
+	</tr>
+	<tr> 
+	  <td>-</td>
 	  <td>Jun 16</td>
 	  <td>
 		<p>Exam</p>

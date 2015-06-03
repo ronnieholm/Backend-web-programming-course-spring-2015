@@ -249,11 +249,11 @@ testing:
 ### Separating business logic into controllers
 
 In terms of the HTTP protocol, which ASP.NET WebAPI is an abstraction
-on top of, each controller represents a resource. One resource, and 
-hence one WebAPI controller, may respond to HTTP verbs such as Get, 
-Put, Post, and Delete by adding a method by the same name to the controller. 
+on top of, each WebAPI controller represents a resource. One resource, and 
+thus one WebAPI controller, may respond to HTTP verbs such as Get, 
+Put, Post, and Delete through controller methods by the same names. 
 In general, it isn't possible to add more than one of each kind of verb or 
 method to the controller. Thus, when posting recurrence patterns to 
 the web service, one controller is required for each recurrence pattern, 
 resulting in controllers such as DailyEveryNthDayController, 
-DailyEveryWeekdayController, and so on.
+DailyEveryWeekdayController.

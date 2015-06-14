@@ -29,5 +29,5 @@ Given these requirement, your tasks are:
    interest to the account. It's up to you to define requirements for interest.
 
 This is a large and somewhat difficult exercise. Try to solve it in small steps. 
-Get one par to work, test it, and then proceed to the next one. In short, manage 
+Get one part to work, test it, and then proceed to the next one. In short, manage 
 the complexity.

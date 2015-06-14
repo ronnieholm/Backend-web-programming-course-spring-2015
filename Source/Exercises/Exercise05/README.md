@@ -5,7 +5,7 @@ try to figure out what the value of the variable is. When
 ready, see the result by uncommenting the statement that 
 prints the value of the variable. 
 
-Statement are uncommented by removing the initial pair 
+Statements are uncommented by removing the initial pair 
 of slashes: 
  
 Change

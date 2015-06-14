@@ -11,7 +11,7 @@ namespace Exercises.Exercise08
         public void MyCode()
         {
             // intentionally left empty.
-            // No starting point provided for execise.
+            // No starting point provided for exercise.
         }
     }
 }

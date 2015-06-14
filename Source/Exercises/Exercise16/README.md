@@ -22,5 +22,5 @@ Given these requirements your tasks are:
    methods. It is up to you to define the requirements.
 
 This is a large and somewhat difficult exercise. Try to solve it in small steps. 
-Get one par to work, test it, and then proceed to the next one. In short, manage 
+Get one part to work, test it, and then proceed to the next one. In short, manage 
 the complexity.

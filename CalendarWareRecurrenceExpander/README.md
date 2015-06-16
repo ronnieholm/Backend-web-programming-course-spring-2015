@@ -1,123 +1,114 @@
 # CalendarWare recurrence expander
 
-You're the co-founder and backend developer at CalendarWare,
-Inc., a Roskilde-based startup specializing in next generation
-calendar solutions. Among the company's innovative, future
-products are plugins for Umbraco, Drupal, and SharePoint, adding
-calendars with advanced appointment recurrence features akin to
-Google Calendar.
+You're the co-founder and backend developer at CalendarWare, Inc., a
+Roskilde-based startup specializing in next generation calendar
+solutions. Among the company's innovative, future products are plugins
+for Umbraco, Drupal, and SharePoint, adding calendars with advanced
+appointment recurrence features akin to Google Calendar.
 
-In the near future, the plan is to expand and integrate the
-calendar plugins with custom project planning software and
-payment systems to generate project and payment schedules. In each
-case, advanced date arithmetic is required, including the
-ability to handle recurrence exceptions for such dates as
-holidays and vacations.
+In the near future, the plan is to expand and integrate the calendar
+plugins with custom project planning software and payment systems to
+generate project and payment schedules. In each case, advanced date
+arithmetic is required, including the ability to handle recurrence
+exceptions for such dates as holidays and vacations.
 
 The plugins are typically composed of a frontend and a backend
 part. The frontend varies greatly with each content management,
-project planning, or payment scheduling system. As luck would
-have it, your co-founder is a skilled frontend developer who
-implements her part using the latest fad in frontend
-technologies. But for designing and developing the backend, your
-skills are required to turn the recurrence patterns into an
+project planning, or payment scheduling system. As luck would have it,
+your co-founder is a skilled frontend developer, fluent in the latest
+frontend technologies. But for designing and developing the backend,
+your skills are required to turn the recurrence patterns into an
 appointment series to display in the frontend.
 
-In close cooperation, the two of you have agreed on the frontend
-and backend requirements for the initial prototype. As you've
-adopted the latest and greatest in agile methodologies, lengthy
-requirement documents are a thing of the past. Instead, you work
-from screenshots and example patterns and address unclear or
-missing requirements as they materialize.
+In close cooperation, the two of you have agreed on the frontend and
+backend requirements for the initial prototype. As you've adopted the
+latest and greatest in agile methodologies, lengthy requirement
+documents are a thing of the past. Instead, you work from screenshots
+and example patterns and address unclear or missing requirements as
+you go.
 
 Based on these screenshots and example patterns, your partner has
-started developing the frontend. Your job is to develop the
-backend, taking into account the additional requirements below:
+started developing the frontend. Your job is to develop the backend,
+taking into account the additional requirements below:
 
-  - At a minimum, the backend must support daily and weekly 
-    recurring appointments within a start date and end date
-	range. The *No end date* and *End after n occurrence(s)*
-	aren't required for the minimum implementation.
+  - At a minimum, the backend must support daily and weekly recurring
+    appointments within a start date and end date range. The *No end
+    date* and *End after n occurrence(s)* aren't required for the
+    minimum implementation.
 
-  - For the backend to be easily consumed by various frontends,
-    it must be implemented using open communication standards and
-    capable of receiving requests and returning responses in JSON
-    and XML formats. Specifically, the backend must be an ASP.NET
-    WebAPI service.
+  - For the backend to be easily consumed by various frontends, it
+    must be implemented using open communication standards and capable
+    of receiving requests and returning responses in JSON and XML
+    formats. Specifically, the backend must be an ASP.NET WebAPI
+    service.
 
-  - Provided with a recurrence pattern, serialized as JSON or XML
-    by the frontend and deserialized into an object by ASP.NET
-    WebAPI, the web service must expand it into a series of dates
-    which satisfy the recurrence pattern.
+  - Provided with a recurrence pattern, serialized as JSON or XML by
+    the frontend and deserialized into an object by ASP.NET WebAPI,
+    the web service must expand the pattern into a series of dates.
 
-  - To ensure the backend works correctly and reliably -- and
-    keeps doing so -- it must be accompanied by automated
-    tests. These should exercise the public API of the web 
-	service, simulating a client calling it. Tests may be 
-	implemented using either the xUnit testing framework or
-	a console application.
+  - To ensure the backend works correctly and reliably -- and keeps
+    doing so -- it must be accompanied by automated tests. These
+    should exercise the public API of the web service, simulating a
+    client calling it. Tests may be implemented using either the xUnit
+    testing framework or a console application.
 
-  - The backend must only use classes which are part of the core
-    .NET framework or ASP.NET. No third-party date expansion code is
+  - The backend must only use classes which are part of the core .NET
+    framework or ASP.NET. No third-party date expansion code is
     allowed. It could potentially infringe on another company's
     copyright or patents.
 
-  - In developing the web service and tests, make use of the 
-    object-oriented language and library constructs covered in the 
-	course. Don't try to shoehorn each and every construct into 
-	the design and implementation, but evaluate alternatives 
-	against the intended outcome and pick one that meets your 
-	needs.
+  - In developing the web service and tests, make use of the
+    object-oriented language and library constructs covered in the
+    course. Don't try to shoehorn each and every construct into the
+    design and implementation, but evaluate alternatives against the
+    intended outcome and pick ones that meets your needs.
 
-  - Focus on making the code as human-readable as possible
-    through good naming of classes, methods, variables, and so
-    forth. The code should be nicely separated into classes and
-    methods so as to avoid code duplication and further human
-    communication and readability.
+  - Focus on making the code as human-readable as possible through
+    good naming of classes, methods, variables, and so forth. The code
+    should be nicely separated into classes and methods so as to avoid
+    code duplication and further human communication and readability.
 
-  - To communicate key design decisions to your co-founder,
-    future self, and potential investors, you must create and
-    maintain a document of no more than four pages. Think of it
-    as an experience report emphasizing the "why" of key design
-    decisions, algorithms used and their trade-offs. In addition,
-    include an example of the web service's XML and JSON request
-    and response for a recurrence pattern of your choosing.
+  - To communicate key design decisions to your co-founder, future
+    self, and potential investors, you must create and maintain a
+    document of no more than four pages. Think of it as an experience
+    report emphasizing the "why" of key design decisions, algorithms
+    used and their trade-offs. In addition, include an example of the
+    web service's XML and JSON request and response for a recurrence
+    pattern of your choosing.
 
-  - It's encouraged, though not a strict functional requirement,
-    that you keep source code under version control using
-    Github. Doing so enhances team collaboration and makes it
-    easier for you to undo code changes and revert to a known
-    state.
+  - It's encouraged, though not a strict requirement, that you keep
+    source code under version control using Github. Doing so enhances
+    team collaboration and makes it easier for you to undo changes and
+    revert to a known state.
 
 ## Deadlines
 
-Source code and documentation must be provided to your co-founder
-and two tech-savvy potential investors no later than June 7, 2015
-at 11.59pm or CalendarWare, Inc. risks bankruptcy.
+Source code and documentation must be provided to your co-founder and
+two tech-savvy potential investors no later than June 7, 2015 at
+11.59pm or CalendarWare, Inc. risks bankruptcy.
 
-On June 16, 2015, your partner and you are to pitch your backend
-to the two potential investors. Unfortunately, your partner has
-come down with the flu and you alone must prepare a 13 minutes
+On June 16, 2015, your partner and you are to pitch your backend to
+two potential investors. Unfortunately, your partner has come down
+with the flu and you alone must prepare a 13 minutes
 presentation. Make sure to include key points from the experience
-report -- investors are busy people so assume only one has read
-the report -- and a demo of the web service in action. Following
-the presentation, you and the potential investors will discuss
-your backend in particular and backend topics in general.
+report and a demo of the web service in action (investors are busy
+people so assume only one has read the report). Following the
+presentation, you and the potential investors will discuss your
+backend in particular and backend topics in general.
 
 ## Screenshots and examples
 
-To better understand the backend requirements, the screenshots
-and prose below are accompanied by examples of recurrence
-patterns and what they expand to. For each example, it's assumed
-the recurrence pattern starts on May 1, 2015 and repeats for five
-occurrences.
+To better understand the backend requirements, the screenshots and
+prose below are accompanied by examples of recurrence patterns and
+their expanded forms. For each example, it's assumed the recurrence
+pattern starts on May 1, 2015 and repeats for five occurrences.
 
 Given a pattern, the frontend expects the backend to return its
 expanded form. With these dates in hand, the frontend clones the
 recurrence appointment, not including the recurrence part. In its
-place goes each start date and end date returned by the backend, 
-in effect turning the recurring appointment into a series of 
-single, non-recurring appointments to be displayed on the calendar.
+place goes each start date and end date returned by the backend, in
+effect turning the recurring appointment into a series of single,
+non-recurring appointments.
 
 ### Single, non-recurring appointment
 

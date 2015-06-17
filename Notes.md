@@ -122,7 +122,7 @@ have to define.
 The result will be that certain information is needed while 
 others can be left out. So, the model of a student in the 
 program may only contain certain information: the information which is 
-relevant in relation to the requirements. Exatcly which pieces of 
+relevant in relation to the requirements. Exactly which pieces of 
 information we include will depend on the specific situation, i.e., the 
 specific requirements.
 
@@ -150,7 +150,7 @@ In programming, we try to translate such rules, formulated in a
 human language, to instructions/logic written in a language the computer
 can understand. In this course this language is C#. This will result in 
 writing a number of statements. When we have large collections of 
-statements, we organise those into methods which we discuss later.
+statements, we organize those into methods which we discuss later.
 
 # Environment
 
@@ -187,7 +187,7 @@ Top level of a C# application is a solution. An application is a solution.
 
 A solution can contain one or more projects.
 
-A solution consists of several files: we don't need to worry about all of the files.
+A solution consists of several files: we don't need to worry about all of the files right now.
 
 The Solution Explorer gives us an overview of the current solution. Do 
 not worry about what is contained in the Properties and References sections.
@@ -234,7 +234,7 @@ Statements are organized into methods and classes. We'll get to that later.
 Statements are instructions to the program about what to do next. Examples are:
 
   * Do some arithmetic or logical calculation
-  * Read or write data to a file or the screen
+  * Read or write data to a file or screen
   * Control the flow of execution
 
 Only common property for all statements: they end with a ";" (semicolon).
@@ -247,7 +247,7 @@ isn't syntactically correct, you'll be notified even before running the
 program. Wavy red lines will appear in VS.
 
 You will be annoyed by this, but there's no way around it. Well, it's 
-possible to switch off the wavy red lines but it's better to get used to it.
+possible to switch off the wavy red lines but it's better to keep those active.
 
 Don't ignore the wavy red lines. They indicate that something is wrong. So fix 
 it right away. It can be somewhat annoying that the red lines appear as soon as you 
@@ -274,7 +274,7 @@ In web programming terms
 
   * Presentation: Frontend
   * Manipulation (Calculation): Backend
-  * Storage: Databases
+  * Storage: Database
 
 Data manipulation can (a bit abstractly) be broken down into:
 
@@ -463,7 +463,7 @@ In general, you can only add things of the same type. But since any value
 can be converted to a string, the value of age (21) can be converted 
 to a string. 
 
-So, we are adding "The age is " and "21". Since 
+So, we're adding "The age is " and "21". Since 
 addition of two string is defined as concatenating the strings (writing 
 the first string after the other), the result of the addition is "The age 
 is 21". This ability to chain together several values (you can add as 
@@ -672,7 +672,7 @@ to create better representations of real-life concepts in software.
 
 # Object-oriented (OO) Programming
 
-In non-OO programming data and functions are separated. No encapsulation so data 
+In non-OO programming data and functions are separated. There's no encapsulation so data 
 belonging to the same conceptual entity is spread out over multiple data structures.
 
 In OO programming data and functions are joined into objects. 
@@ -998,7 +998,7 @@ the 'a' example or we can use the this keyword:
     }
 
 The this keyword should be understood as "this specific object". Writing 
-this-dot-something refer to elements inside the specific object. It's 
+this-dot-something refers to elements inside the specific object. It's 
 a matter of taste if you prefer the "different names for instance fields and 
 parameters" approach over the "using the
 this keyword" approach.
@@ -1064,7 +1064,7 @@ we're trying to withdraw?
 It's important to understand the main propertiers of the if-statement
 
   - If the condition evaluates to true, the code inside the code block 
-    executeds once and the program continues with 
+    executes once and the program continues with 
 	the statements following the if-statement.
   - If the condition evaluates to false, code inside the { } block 
     is skipped (not executed) and the program immediately 
@@ -1199,7 +1199,7 @@ Maybe the logic for calculating child support is like so:
 more than 3 children amounts to 3,000 kr. of child support per month
 
 There's no simple formula for this dependency between number of child and child support.
-We'd have to write out all case as a 
+We'd have to write out all cases as a 
 nested or multi if/else-statement. The switch-statement allows us to express the
 same logic but more succintly:
 
@@ -1451,7 +1451,7 @@ all elements are fixed:
 
 We often use arrays together with some type of repetition statement:
 
-    int[]numberArray = new int[10];
+    int[] numberArray = new int[10];
     // do some initialization...
 
     for (int index = 0; index < 10; index++) {
@@ -1562,7 +1562,7 @@ Common task: given the key, find the corresponding object.
 
 This is a bit hard to do efficiently using lists. You have 
 to search through the list element by element until you either find 
-the correct element or can conclude it's node there. Code 
+the correct element or can conclude it isn't there. Code 
 must be explicitly written and can be rather slow (has to search 
 through much data).
 
@@ -1576,7 +1576,7 @@ Dictionary type:
     // value is Student object
     Dictionary<String, Student> students;
 
-When we wish to add a key/value pair to the dictionary we use 
+When we wish to add a key/value pair to the dictionary, we use 
 the Add method which now takes two parameters:
 
     students.Add("020388-1208", aStudent);

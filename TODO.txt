@@ -6,6 +6,9 @@ TODO
   - Add Conway's game of life
   - Add number system/RGB/link shortener convertion exercise
   - Add Shunting Yard algorithm exercise
+  - Add Eight queens problem exercise
+  - Read Design and Implementation of Generics for the .NET Common Language Runtime
+    http://research.microsoft.com/pubs/64031/designandimplementationofgenerics.pdf
 
 
 

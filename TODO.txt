@@ -9,6 +9,8 @@ TODO
   - Add Eight queens problem exercise
   - Read Design and Implementation of Generics for the .NET Common Language Runtime
     http://research.microsoft.com/pubs/64031/designandimplementationofgenerics.pdf
+  - Get inspiration from Structure and Interpretation of Computer Programs
+    https://www.youtube.com/watch?v=2Op3QLzMgSY
 
 
 

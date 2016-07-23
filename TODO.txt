@@ -11,6 +11,7 @@ TODO
     http://research.microsoft.com/pubs/64031/designandimplementationofgenerics.pdf
   - Get inspiration from Structure and Interpretation of Computer Programs
     https://www.youtube.com/watch?v=2Op3QLzMgSY
+  - Consider not lecturing and instead use pre-recorded lectures
 
 
 

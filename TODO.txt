@@ -13,6 +13,7 @@ TODO
     https://www.youtube.com/watch?v=2Op3QLzMgSY
   - Consider not lecturing and instead use pre-recorded lectures
   - Consider using assignments from http://adventofcode.com
+  - Consider using http://codekata.com
 
 
 

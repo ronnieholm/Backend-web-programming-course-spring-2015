@@ -14,6 +14,6 @@ TODO
   - Consider not lecturing and instead use pre-recorded lectures
   - Consider using assignments from http://adventofcode.com
   - Consider using http://codekata.com
-
+  - Consider not lecturing: https://www.benbenandblue.com/episodes/2017/9/4/bbb-2-lecturingbloodletting-so-why-are-we-still-doing-it
 
 

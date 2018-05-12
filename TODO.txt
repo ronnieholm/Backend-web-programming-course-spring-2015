@@ -5,15 +5,16 @@ TODO
   - Add hi/lo game for loops and if/else statements
   - Add Conway's game of life
   - Add number system/RGB/link shortener convertion exercise
-  - Add Shunting Yard algorithm exercise
+  - Add Shunting Yard and Pratt parser algorithm exercise
+  - Add JSON and XML parser exercises
   - Add Eight queens problem exercise
   - Read Design and Implementation of Generics for the .NET Common Language Runtime
     http://research.microsoft.com/pubs/64031/designandimplementationofgenerics.pdf
   - Get inspiration from Structure and Interpretation of Computer Programs
     https://www.youtube.com/watch?v=2Op3QLzMgSY
-  - Consider not lecturing and instead use pre-recorded lectures
   - Consider using assignments from http://adventofcode.com
   - Consider using http://codekata.com
+  - Consider not lecturing and instead use pre-recorded lectures
   - Consider not lecturing: https://www.benbenandblue.com/episodes/2017/9/4/bbb-2-lecturingbloodletting-so-why-are-we-still-doing-it
 
 

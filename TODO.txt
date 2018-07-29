@@ -17,5 +17,6 @@ TODO
   - Consider not lecturing and instead use pre-recorded lectures
   - Consider not lecturing: https://www.benbenandblue.com/episodes/2017/9/4/bbb-2-lecturingbloodletting-so-why-are-we-still-doing-it
   - Consider exercise of implementing tree command: https://www.youtube.com/watch?v=XbKSssBftLM
+  - Implement Base 64 encoder/decoder for familiarity with bitwise operations
 
 
